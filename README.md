@@ -1,2 +1,2 @@
-# Fatec_LP1
+# Fatec
 Exercicios Fatec
