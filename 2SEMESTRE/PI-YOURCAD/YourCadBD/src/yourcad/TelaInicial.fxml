@@ -23,9 +23,9 @@
                 </Menu>
                 <Menu mnemonicParsing="false" text="Pesquisa">
                   <items>
-                    <MenuItem fx:id="menuItem_PesqCliente" mnemonicParsing="false" onAction="#gotoCliente" text="Cliente" />
-                    <MenuItem fx:id="menuItem_PesqConta" mnemonicParsing="false" onAction="#gotoConta" text="Conta" />
-                    <MenuItem fx:id="menuItem_PesqConcessionaria" mnemonicParsing="false" onAction="#gotoConcessionaria" text="Concessionaria" />
+                    <MenuItem fx:id="menuItem_PesqCliente" mnemonicParsing="false" onAction="#gotoPesqCliente" text="Cliente" />
+                    <MenuItem fx:id="menuItem_PesqConta" mnemonicParsing="false" onAction="#gotoPesqConta" text="Conta" />
+                    <MenuItem fx:id="menuItem_PesqConcessionaria" mnemonicParsing="false" onAction="#gotoPesqConcessionaria" text="Concessionaria" />
                   </items>
                 </Menu>
               </menus>

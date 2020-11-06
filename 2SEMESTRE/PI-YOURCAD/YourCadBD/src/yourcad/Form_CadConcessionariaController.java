@@ -21,9 +21,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import javafx.scene.control.TextArea;
 import yourcad.DBConexao.*;
 import java.sql.*;
-import javafx.scene.control.TextArea;
 
 /**
  * FXML Controller class
@@ -78,8 +78,6 @@ public class Form_CadConcessionariaController implements Initializable {
     private MenuItem menuItem_PesqConcessionaria;
     @FXML
     private TextField txtFld_UfEndConcessionaria1;
-    @FXML
-    private TextArea textArea;
 
     /**
      * Initializes the controller class.
@@ -121,6 +119,36 @@ public class Form_CadConcessionariaController implements Initializable {
         app_stage.show();
     }
     
+    @FXML
+    private void gotoPesqCliente(ActionEvent event) throws IOException {
+        Parent home_page_parent = FXMLLoader.load(getClass().getResource("PesqCliente.fxml"));
+        Scene home_page_scene = new Scene(home_page_parent);
+        Stage app_stage = (Stage) menuBar_TelaInicial.getScene().getWindow();  
+        app_stage.hide();
+        app_stage.setScene(home_page_scene);
+        app_stage.show();
+    }
+    
+    @FXML
+    private void gotoPesqConta(ActionEvent event) throws IOException {
+        Parent home_page_parent = FXMLLoader.load(getClass().getResource("PesqConta.fxml"));
+        Scene home_page_scene = new Scene(home_page_parent);
+        Stage app_stage = (Stage) menuBar_TelaInicial.getScene().getWindow();  
+        app_stage.hide();
+        app_stage.setScene(home_page_scene);
+        app_stage.show();
+    }
+    
+    @FXML
+    private void gotoPesqConcessionaria(ActionEvent event) throws IOException {
+        Parent home_page_parent = FXMLLoader.load(getClass().getResource("PesqConcessionaria.fxml"));
+        Scene home_page_scene = new Scene(home_page_parent);
+        Stage app_stage = (Stage) menuBar_TelaInicial.getScene().getWindow();  
+        app_stage.hide();
+        app_stage.setScene(home_page_scene);
+        app_stage.show();
+    }    
+
     // FIM MENU BAR //
     
         @FXML
@@ -140,30 +168,66 @@ public class Form_CadConcessionariaController implements Initializable {
 
     @FXML
     private void insert_Concessionaria(ActionEvent event) throws Exception {
+                    
+        //Declarando os campos de texto para variaveis
+        String NomeConcessionaria;
+        String CnpjConcessionaria;
+        String InscEstadualConcessionaria;
+        String EmailConcessionaria;
+        String SiteConcessionaria;
+        String CepConcessionaria;
+        String NumEndConcessionariaTxt;
+        String CompEndConcessionaria;
+        String EndConcessionaria;
+        String CidadeConcessionaria;
+        String UfEndConcessionaria;
+        
+        NomeConcessionaria = txtFld_NomeConcessionaria.getText();
+        CnpjConcessionaria = txtFld_CnpjConcessionaria.getText();
+        InscEstadualConcessionaria = txtFld_InscEstadualConcessionaria.getText();
+        EmailConcessionaria = txtFld_EmailConcessionaria.getText();
+        SiteConcessionaria = txtFld_SiteConcessionaria.getText();
+        CepConcessionaria = txtFld_CepConcessionaria.getText();
+        NumEndConcessionariaTxt = txtFld_NumEndConcessionaria.getText();
+        int NumEndConcessionaria = Integer.parseInt(NumEndConcessionariaTxt);
+        CompEndConcessionaria = txtFld_CompEndConcessionaria.getText();
+        EndConcessionaria = txtFld_EndConcessionaria.getText();
+        CidadeConcessionaria = txtFld_CidadeConcessionaria.getText();
+        UfEndConcessionaria = txtFld_UfEndConcessionaria.getText();
+        
         Connection conn = null;
         ResultSet resultSet = null;
-        
         DBConexao c = new DBConexao();
-        
-        conn = c.abrirConexao();
-        
+        conn = DBConexao.abrirConexao();
         Statement stm = conn.createStatement();
-        resultSet = stm.executeQuery("SELECT * FROM concessionaria");
-        while(resultSet.next()){
-           System.out.printf(resultSet.getString("concessionaria_nome"));
-       }
+        String query;
+        query = "INSERT INTO concessionaria(concessionaria_cnpj,\n" +
+                "concessionaria_nome,\n" +
+                "concessionaria_inscricao_estadual,\n" +
+                "concessionaria_endereco,\n" +
+                "concessionaria_numero_endereco,\n" +
+                "concessionaria_complemento_endereco,\n" +
+                "concessionaria_cep,\n" +
+                "concessionaria_cidade,\n" +
+                "concessionaria_uf,\n" +
+                "concessionaria_email,\n" +
+                "concessionaria_site) VALUES "
+                + "('"+ CnpjConcessionaria +"','"
+                + NomeConcessionaria +"','"
+                + InscEstadualConcessionaria +"','"
+                + EndConcessionaria +"','"
+                + NumEndConcessionaria +"','"
+                + CompEndConcessionaria +"','"
+                + CepConcessionaria +"','"
+                + CidadeConcessionaria +"','"
+                + UfEndConcessionaria +"','"
+                + EmailConcessionaria +"','"
+                + SiteConcessionaria +"');";
         
-        
-        
-        
-    
-    
-       
-    
-    }
+//        System.out.println(query);  // TESTE DE FUNCIONAMENTO
+        stm.executeUpdate(query);
+        System.out.println("Dados Cadastrados com sucesso!!!");
 
-
-  
-
-    
+         
+    }   
 }

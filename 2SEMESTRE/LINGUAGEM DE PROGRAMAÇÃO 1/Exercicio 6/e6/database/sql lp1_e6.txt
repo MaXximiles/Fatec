@@ -1,0 +1,3 @@
+create database lp1_e5;
+
+use lp1_e5;
