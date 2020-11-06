@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
@@ -11,7 +14,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
-<BorderPane fx:id="mainPane" prefHeight="506.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yourcad.Form_CadConcessionariaController">
+<BorderPane fx:id="mainPane" prefHeight="506.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yourcad.Form_CadConcessionariaController">
    <top>
       <AnchorPane fx:id="ancPane_TelaInicio" prefHeight="28.0" prefWidth="686.0" BorderPane.alignment="CENTER">
          <children>
@@ -58,7 +61,7 @@
             <Label layoutX="14.0" layoutY="312.0" text="Complemento:" />
             <TextField fx:id="txtFld_CompEndConcessionaria" layoutX="108.0" layoutY="308.0" prefHeight="25.0" prefWidth="232.0" />
             <Label layoutX="358.0" layoutY="312.0" text="Bairro:" />
-            <TextField fx:id="txtFld_UfEndConcessionaria1" layoutX="400.0" layoutY="308.0" prefHeight="25.0" prefWidth="171.0" />
+            <TextField fx:id="txtFld_bairroConcessionaria" layoutX="400.0" layoutY="308.0" prefHeight="25.0" prefWidth="171.0" />
             <Label layoutX="14.0" layoutY="355.0" text="Cidade:" />
             <TextField fx:id="txtFld_CidadeConcessionaria" layoutX="109.0" layoutY="351.0" prefHeight="25.0" prefWidth="191.0" />
             <Label layoutX="322.0" layoutY="355.0" text="UF:" />
@@ -67,6 +70,7 @@
             <Button fx:id="btn_LimparConcessionaria" layoutX="351.0" layoutY="439.0" mnemonicParsing="false" onAction="#btn_Limpar" text="Limpar" />
             <Separator layoutX="1.0" layoutY="23.0" prefHeight="0.0" prefWidth="686.0" />
             <Label layoutX="246.0" layoutY="4.0" text="Cadastro de Concessionarias" />
+            <TextField fx:id="txt_IdConcessionaria" layoutX="622.0" layoutY="36.0" prefHeight="25.0" prefWidth="25.0" visible="false" />
          </children>
       </Pane>
    </center>

@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
-<BorderPane fx:id="mainPane" prefHeight="458.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yourcad.PesqClienteController">
+<BorderPane fx:id="mainPane" prefHeight="458.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yourcad.PesqConcessionariaController">
    <top>
       <AnchorPane>
          <children>
@@ -44,29 +44,30 @@
       <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
             <Separator layoutX="-1.0" layoutY="25.0" prefHeight="2.0" prefWidth="686.0" />
-            <Label layoutX="294.0" layoutY="7.0" text="Pesquisa de Concessionaria" />
-            <TitledPane animated="false" collapsible="false" layoutX="14.0" layoutY="38.0" prefHeight="133.0" prefWidth="654.0" text="Concessionaria">
+            <Label layoutX="286.0" layoutY="8.0" text="Pesquisa de Concessionaria" />
+            <TitledPane animated="false" collapsible="false" focusTraversable="false" layoutX="14.0" layoutY="38.0" prefHeight="133.0" prefWidth="654.0" text="Concessionaria">
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="87.0" prefWidth="652.0">
                      <children>
                         <Label layoutX="14.0" layoutY="14.0" text="Concessionaria:" />
-                        <TextField fx:id="txtFld_Concessionaria" layoutX="97.0" layoutY="10.0" prefHeight="22.0" prefWidth="365.0" />
+                        <TextField fx:id="txtFld_Concessionaria" layoutX="100.0" layoutY="10.0" prefHeight="22.0" prefWidth="365.0" />
                         <Label layoutX="16.0" layoutY="65.0" text="CNPJ:" />
                         <TextField fx:id="txtFld_CnpjConcessionara" layoutX="97.0" layoutY="57.0" prefHeight="22.0" prefWidth="189.0" />
-                        <Button fx:id="btn_PesquisarCliente" layoutX="560.0" layoutY="68.0" mnemonicParsing="false" text="Pesquisar" />
+                        <Button fx:id="btn_PesquisarConcessionaria" layoutX="560.0" layoutY="68.0" mnemonicParsing="false" onAction="#pesquisar_Concessionaria" text="Pesquisar" />
                      </children>
                   </AnchorPane>
               </content>
             </TitledPane>
-            <ScrollPane layoutX="14.0" layoutY="191.0">
+            <Button fx:id="btn_alterar_concessionaria" layoutX="260.0" layoutY="178.0" mnemonicParsing="false" onAction="#alterar_concessionaria" text="Alterar" />
+            <Button fx:id="btn_deletar_concessionaria" layoutX="349.0" layoutY="178.0" mnemonicParsing="false" onAction="#deletar_concessionaria" text="Deletar" />
+            <ScrollPane layoutX="14.0" layoutY="210.0" prefHeight="209.0" prefWidth="656.0">
                <content>
-                  <TableView prefHeight="200.0" prefWidth="653.0">
+                  <TableView fx:id="tbview_PesqConcessionaria" prefHeight="200.0" prefWidth="653.0">
                     <columns>
-                      <TableColumn prefWidth="69.0" text="COD" />
-                      <TableColumn prefWidth="193.0" text="NOME FANTASIA" />
-                        <TableColumn prefWidth="173.0" text="CPF/CNPJ" />
-                        <TableColumn minWidth="0.0" prefWidth="156.0" text="ENDEREÇO" />
-                        <TableColumn editable="false" prefWidth="61.0" sortable="false" text="AÇÕES" />
+                      <TableColumn fx:id="table_concessionaria_id" prefWidth="33.0" text="COD" />
+                      <TableColumn fx:id="table_nomeFantasia_concessionaria" prefWidth="210.0" text="NOME FANTASIA" />
+                        <TableColumn fx:id="table_Cnpj_Concessionaria" prefWidth="138.0" text="CPF/CNPJ" />
+                        <TableColumn fx:id="table_endereco_concessionaria" minWidth="0.0" prefWidth="271.0" text="ENDEREÇO" />
                     </columns>
                   </TableView>
                </content>
