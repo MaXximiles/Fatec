@@ -12,6 +12,18 @@ Sarah é uma assistente virtual voltada para funcionalidades de RH, o tema foi d
 ![SARAH1.PNG](https://github.com/MaXximiles/Fatec/blob/master/src/SARAH1.PNG?raw=true) | ![SARAH1.PNG](https://github.com/MaXximiles/Fatec/blob/master/src/SARAH2.PNG?raw=true)
 --------- | --------
 
+### Resumo do Projeto
+
+
+### Tecnologias adotadas na solução
+
+
+### Contribuições individuais/pessoais
+
+
+### Aprendizados Efetivos
+
+
+### Link do Projeto Completo
 
 <p align="center"><a href="https://github.com/rodrigo-prado1705/Sarah"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquisarah.fw.png" width="100" height="40"></a></p> <br>
-
