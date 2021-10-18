@@ -28,7 +28,7 @@ Em contato com a empresa TecSUS descobrimos que a principal dificuldade da mesma
 --------- | --------
 
 
-<p align="center"><a href="https://github.com/rodrigo-prado1705/projeto-integrador-2sem"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><a href="https://github.com/MaXximiles/Fatec/blob/master/2Semestre%20-%20Yourcad/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
 ### TRACE FINDER - 3º SEMESTRE
@@ -41,7 +41,7 @@ O Trace Finder tem como objetivo ser uma aplicação que permite manter, customi
 ![](https://user-images.githubusercontent.com/68132461/120643272-535b8f00-c44c-11eb-9f02-31ea6213d256.png) | ![](https://user-images.githubusercontent.com/68132461/123145337-1d01a600-d433-11eb-9a78-4dd6eae83a47.png)
 --------- | --------
 
-<p align="center"><a href="https://github.com/MaXximiles/API-3SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquitracefinder.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><a href="https://github.com/MaXximiles/Fatec/blob/master/3Semestre%20-%20Trace%20Finder/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquitracefinder.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
 ### ENDURANCE - 4º SEMESTRE
@@ -54,4 +54,4 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
 ![](https://user-images.githubusercontent.com/68132461/136485547-51caf0b7-0706-42d6-a387-58362765f071.gif) |
 --------- | 
 
-<p align="center"><a href="https://github.com/MaXximiles/API-4SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><a href="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
