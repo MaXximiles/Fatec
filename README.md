@@ -13,7 +13,7 @@ Sarah é uma assistente virtual voltada para funcionalidades de RH, o tema foi d
 --------- | --------
 
 
-<p align="center"><a href="https://github.com/rodrigo-prado1705/Sarah"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquisarah.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><a href="https://github.com/MaXximiles/Fatec/blob/master/1Semestre%20-%20SARAH/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquisarah.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
 ### YOURCAD - 2º SEMESTRE
