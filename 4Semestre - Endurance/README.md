@@ -1,4 +1,4 @@
-### ENDURANCE - 4º SEMESTRE
+## ENDURANCE - 4º SEMESTRE
 
 <p align="center"><img src="https://github.com/MaXximiles/API-4SEM/raw/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png" width="220" height="150"></>
 
@@ -6,9 +6,9 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
 <br>
   
   <p align="center"><img src="https://user-images.githubusercontent.com/68132461/136485547-51caf0b7-0706-42d6-a387-58362765f071.gif"></img></p>
+____________________________________________________________________________________________________________________________________________________________________________
 
-
-#### RESUMO DO PROJETO
+### RESUMO DO PROJETO
 
 <p>  O sistema Endurance foi desenvolvido para suprir a necessidade apresentada pelo Cliente, que possui um local para eventos que conta com dois espaços diferentes para tal. O primeiro espaço possui 10 vagas e o segundo 50 vagas, o controle dessas vagas deve seguir o espaçamento adotado pelas medidas de segurança contra COVID-19.</p>
 <p>  O sistema possui uma hierarquia de usuarios onde existe o convidado, colaborador e administradores.<br>
@@ -32,14 +32,14 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
   --------- | --------
   ![](https://user-images.githubusercontent.com/68132461/136475075-b8016d6f-556f-43af-8a74-4a076591f8df.png) | ![](https://user-images.githubusercontent.com/68132461/136475363-83c18e00-6c6d-44a6-abdc-fec48efb1400.png)
 
-  
-#### TECNOLOGIAS UTILIZADAS
+____________________________________________________________________________________________________________________________________________________________________________  
+### TECNOLOGIAS UTILIZADAS
 
 No projeto as tecnologias que utilizamos foram:
 
 <p align="center"><img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/programas.png" height="600" width="900"></p>
 
-#### CONTRIBUIÇÕES INDIVIDUAIS
+####CONTRIBUIÇÕES INDIVIDUAIS
 
 Neste projeto contamos com um grupo de 6 pessoas sendo divididas da seguinte forma:
 
@@ -94,11 +94,11 @@ Programador de banco de dados responsavel por:
   * Instalação e configuração de framework's;
   * Configuração de formularios e layout do sistema;
   * Documentar no Github do grupo todas as alterações e modificações do projeto;
+____________________________________________________________________________________________________________________________________________________________________________
+### APRENDIZADOS EFETIVOS
 
-#### APRENDIZADOS EFETIVOS
-
-
-#### LINK DO PROJETO COMPLETO
+____________________________________________________________________________________________________________________________________________________________________________
+### LINK DO PROJETO COMPLETO
 No botão abaixo é possivel ver o Github com o projeto completo, baixar e excuta-lo tambem:
   
 <p align="center"><a href="https://github.com/MaXximiles/API-4SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
