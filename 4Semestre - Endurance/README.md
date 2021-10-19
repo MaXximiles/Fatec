@@ -37,13 +37,63 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
 
 No projeto as tecnologias que utilizamos foram:
 
-
-<img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/programas.png" height="250" width="350">
-
-
+<p align="center"><img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/programas.png" height="600" width="900"></p>
 
 #### CONTRIBUIÇÕES INDIVIDUAIS
 
+Neste projeto contamos com um grupo de 6 pessoas sendo divididas da seguinte forma:
+
+<a href="https://www.linkedin.com/in/maxx-barcelos-aaa106b2"> <img src= "https://img.shields.io/badge/Maximiles%20Barcelos%20--%20Scrum%20Master-Linkedin-blue"></a> <br>
+ Master do grupo responsavel por:
+ 
+ * Planejamento das tarefas voltadas para cada sprint;
+ * Definir prazos para entregas das tarefas dos integrantes;
+ * Agendar reuniões entre o grupo para definir tarefas e visualizar os resultados entregues;
+ * Controlar o Backlog do Grupo utilizando a ferramenta Trello para isso;
+ * Controle da planilha Burndown;
+ * Comunicação com professores M2 e P2 do projeto;
+
+<a href="https://www.linkedin.com/in/mateus-senne"> <img src= "https://img.shields.io/badge/Mateus%20Senne%20--%20Product%20Owner-Linkedin-blue"></a> <br>
+Product Owner do grupo responsavel por:
+
+  * Comunicação com o cliente;
+  * Apresentar porpostas para o grupo seguindo mudanças solicitadas pelo cliente;
+  * Responsavel pelo PACER do grupo;
+  * Criação dos Wireframes iniciais e validação com o cliente;
+
+<a  href="https://www.linkedin.com/in/rodrigo-tenorio-a56641174"> <img src="https://img.shields.io/badge/Rodrigo%20Amancio%20-Linkedin-blue"></a> <br>
+Programador Front-End responsavel por:
+
+  * Criação da parte visual do projeto;
+  * Integração com a API criada pelo grupo;
+  * Instalação e configuração de framework's;
+  * Configuração de formularios e layout do sistema;
+
+<a href="https://www.linkedin.com/in/jeferson-tadeu-das-neves-a98343190/"> <img src= "https://img.shields.io/badge/Jeferson%20Neves-Linkedin-blue"></a> <br>
+Programador Back-End responsavel por:
+
+  * Criação da API do projeto;
+  * Implementação de funções de acordo a necessidade do sistema;
+  * Segurança de informações como senhas criptrogafadas e dados sensiveis;
+  * Criação das query's no banco de dados;
+
+<a href="https://www.linkedin.com/in/bahij-noureddine-941b681b7/"> <img src= "https://img.shields.io/badge/Bahij%20Noureddine-Linkedin-blue"></a><br>
+Programador de banco de dados responsavel por:
+
+  * Criação de tabelas de acordo com o sistema;
+  * Criação do modelo lógico e conceitual do banco;
+  * Teste dos dados;
+  * Validação do banco e comunicação com a API;
+  * Documentar no Github do grupo todas as alterações e modificações do projeto;
+
+<a href="https://www.linkedin.com/in/leonardo-gabriel-silva-11b8b8178/"> <img src= "https://img.shields.io/badge/Leonardo%20Gabriel-Linkedin-blue"></a> <br>
+Programador de banco de dados responsavel por:
+
+  * Criação da parte visual do projeto;
+  * Integração com a API criada pelo grupo;
+  * Instalação e configuração de framework's;
+  * Configuração de formularios e layout do sistema;
+  * Documentar no Github do grupo todas as alterações e modificações do projeto;
 
 #### APRENDIZADOS EFETIVOS
 
