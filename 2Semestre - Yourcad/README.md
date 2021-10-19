@@ -8,6 +8,24 @@ Em contato com a empresa TecSUS descobrimos que a principal dificuldade da mesma
 ![yourcad.JPG](https://github.com/MaXximiles/Fatec/blob/master/src/yourcad.JPG) | ![yourcad2.JPG](https://github.com/MaXximiles/Fatec/blob/master/src/yourcad2.JPG)
 --------- | --------
 
+ 
+ 
+ ### RESUMO DO PROJETO
 
-<p align="center"><a href="https://github.com/rodrigo-prado1705/projeto-integrador-2sem"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="100" height="40"></a></p> <br>
+
+### TECNOLOGIAS UTILIZADAS
+
+
+### CONTRIBUIÇÕES INDIVIDUAIS
+
+
+
+### APRENDIZADOS EFETIVOS
+
+
+### Link do Projeto Completo
+
+No botão abaixo é possivel ver o Github com o projeto completo, baixar e excuta-lo tambem:
+
+<p align="center"><a href="https://github.com/rodrigo-prado1705/projeto-integrador-2sem"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="200" height="80"></a></p> <br>
 
