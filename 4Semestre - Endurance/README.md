@@ -6,7 +6,10 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
 <br>
   
   <p align="center"><img src="https://user-images.githubusercontent.com/68132461/136485547-51caf0b7-0706-42d6-a387-58362765f071.gif"></img></p>
+  
 ____________________________________________________________________________________________________________________________________________________________________________
+
+<br>
 
 ### RESUMO DO PROJETO
 
@@ -33,13 +36,20 @@ ________________________________________________________________________________
   ![](https://user-images.githubusercontent.com/68132461/136475075-b8016d6f-556f-43af-8a74-4a076591f8df.png) | ![](https://user-images.githubusercontent.com/68132461/136475363-83c18e00-6c6d-44a6-abdc-fec48efb1400.png)
 
 ____________________________________________________________________________________________________________________________________________________________________________  
+
+<br>
+
 ### TECNOLOGIAS UTILIZADAS
 
 No projeto as tecnologias que utilizamos foram:
 
 <p align="center"><img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/programas.png" height="600" width="900"></p>
 
-####CONTRIBUIÇÕES INDIVIDUAIS
+____________________________________________________________________________________________________________________________________________________________________________
+
+<br>
+
+### CONTRIBUIÇÕES INDIVIDUAIS
 
 Neste projeto contamos com um grupo de 6 pessoas sendo divididas da seguinte forma:
 
@@ -95,10 +105,16 @@ Programador de banco de dados responsavel por:
   * Configuração de formularios e layout do sistema;
   * Documentar no Github do grupo todas as alterações e modificações do projeto;
 ____________________________________________________________________________________________________________________________________________________________________________
+
+<br>
+
 ### APRENDIZADOS EFETIVOS
 
 ____________________________________________________________________________________________________________________________________________________________________________
+
+<br>
+
 ### LINK DO PROJETO COMPLETO
 No botão abaixo é possivel ver o Github com o projeto completo, baixar e excuta-lo tambem:
   
-<p align="center"><a href="https://github.com/MaXximiles/API-4SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><a href="https://github.com/MaXximiles/API-4SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="200" height="80"></a></p> <br>
