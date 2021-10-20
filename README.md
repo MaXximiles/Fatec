@@ -1,5 +1,6 @@
 # PORTIFÓLIO DE API's 
 #### MAXIMILES BARCELOS - FATEC 2020 - 2022
+<a href="https://www.linkedin.com/in/maxx-barcelos-aaa106b2"> <img src= "https://img.shields.io/badge/Maximiles%20Barcelos%20--%20Scrum%20Master-Linkedin-blue"></a> <br>
 <br>
 
 ### SARAH 1º SEMESTRE
