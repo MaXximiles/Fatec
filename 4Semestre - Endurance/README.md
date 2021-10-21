@@ -1,4 +1,7 @@
 ## <h1 id="topo">ENDURANCE - 4º SEMESTRE</h1>
+#### MAXIMILES BARCELOS - FATEC 2º Semestre 2021
+<a href="https://www.linkedin.com/in/maxx-barcelos-aaa106b2"> <img src= "https://img.shields.io/badge/Maximiles%20Barcelos%20--%20Scrum%20Master-Linkedin-blue"></a> <br>
+<br>
 
 <p align="center"><img src="https://github.com/MaXximiles/API-4SEM/raw/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png" width="220" height="150"></>
 
