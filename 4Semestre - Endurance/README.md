@@ -107,23 +107,27 @@ As tecnologias utilizadas no projeto foram:
  Back-End:
  * Linguagem Java 
  * Springboot Maven
- 	A esolha do Java com Springboot foi feita, pois, a programação se torna mais agil e mais rapida de ser feita. o Framework Spring visa facilitar a configuração dos projetos de modo a não ser necessário a criação de arquivos de configuração por parte dos desenvolvedores.
+<p> A esolha do Java com Springboot foi feita, pois, a programação se torna mais agil e mais rapida de ser feita. o Framework Spring visa facilitar a configuração dos projetos de modo a não ser necessário a criação de arquivos de configuração por parte dos desenvolvedores. </p>
 
 Front-End:
  * Angular
  * Bootstrap
- * HTML
+<p> A escolha do do framework Angula se deve pela sua grande fonte de bibliotecas para desenvolvimento de layout's, como templates, modulos, ferramentas de infraestrutura e automatização de tarefas. Uma das bibliotecas utilizadas no projeto foi o Bootstrap que além de seu praticidade de inclusão no sistema tambem possui uma grande gama de componentes para adequação no projeto. </p>
+
+ * HTML5
  * CSS3
  * Typescript
  * Javascript
+<p> Linguagens padrões utilizadas para desenvolvimento de sites e sistemas web, com integração do javascript e typescript para requisições a API do projeto. </p> 	
+
  * Node
  * React
- 	A escolha do do framework Angula se deve pela sua grande fonte de bibliotecas para desenvolvimento de layout's, como templates, modulos, ferramentas de infraestrutura e automatização de tarefas. Uma das bibliotecas utilizadas no projeto foi o Bootstrap que além de seu praticidade de inclusão no sistema tambem possui uma grande gama de componentes para adequação no projeto.
+ <p> Através do React é possivel criar componentes para criação do site, com esses componentes fica mais facil de editar e atualizar as paginas, pois, não é necessário atualizar todas as telas e sim apenas um componente que esta referenciado nas paginas necessárias.</p>
 
 Banco de Dados:
  * Oracle Database
  * Oracle Cloud
- 	Utilizamos o banco de dados Oracle, pois, além de ser o banco estudado no semestre, também é o nosso cliente no projeto. Para a implementação da database utilizamos o Oracle Cloud que nos permitiu hospedar o banco de forma gratuita e remota, nos permitindo acessar a API hospedada em um servidor web na plataforma Heroku.
+<p> Utilizamos o banco de dados Oracle, pois, além de ser o banco estudado no semestre, também é o nosso cliente no projeto. Para a implementação da database utilizamos o Oracle Cloud que nos permitiu hospedar o banco de forma gratuita e remota, nos permitindo acessar a API hospedada em um servidor web na plataforma Heroku. </p>
  
 
 ____________________________________________________________________________________________________________________________________________________________________________
