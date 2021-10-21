@@ -39,6 +39,54 @@ ________________________________________________________________________________
 
 <br>
 
+### INSTALAÇÃO DO SISTEMA
+
+Requisitos:
+
+- Java  16 ou superior
+- Node.js 14.17.6 ou superior
+- NPM 4.17.1 ou superior
+
+#### 1º Passo 
+Acesse os links abaixo, e clique no botão download para baixa-los: 
+
+- [Backend](https://github.com/MaXximiles/API-4SEM/blob/main/C%C3%B3digo/Instala%C3%A7%C3%A3o/Back.rar) 
+- [Frontend](https://github.com/MaXximiles/API-4SEM/blob/main/C%C3%B3digo/Instala%C3%A7%C3%A3o/Front.rar)
+	
+#### 2º Passo 
+Crie uma pasta com o nome de "endurance" onde desejar, extraia os dois arquivos para dentro desta pasta.
+	
+#### 3º Passo
+Com a pasta aberta aperte e segure o botão SHIFT e clique com o botão direito do mouse para abrir as opções, em seguida selecione a opção de abrir prompt de comando aqui, e digite o seguinte comando para rodar o backend:
+
+	java -jar .\endurance-0.0.1-SNAPSHOT.jar
+  
+#### 4º Passo
+Entre na pasta Front, com a pasta aberta aperte e segure o botão SHIFT e clique com o botão direito do mouse para abrir as opções, em seguida selecione a opção de abrir prompt de comando aqui, e digite o seguinte comando para rodar o Frontend:  
+	
+	ng serve -o
+
+#### 5º Passo
+A janela do seu navegador abrirá no sistema pronto para uso.
+Para fins de testes:
+
+    Usuário - jefh.neves@gmail.com
+    Senha - 12345
+
+
+____________________________________________________________________________________________________________________________________________________________________________
+
+<br>
+
+### LINK DO PROJETO COMPLETO
+No botão abaixo é possivel ver o Github com o projeto completo:
+  
+<p align="center"><a href="https://github.com/MaXximiles/API-4SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="200" height="80"></a></p> <br>
+
+____________________________________________________________________________________________________________________________________________________________________________
+
+<br>
+
 ### TECNOLOGIAS UTILIZADAS
 
 No projeto as tecnologias que utilizamos foram:
@@ -75,51 +123,114 @@ Neste projeto desempenhei a função de Scrum Master do grupo onde pude desenvol
  
  Abaixo algumas contribuições como mencionado acima:
  
+ Exemplo de Burndown | Trello(Backlog) 
+ ------------------- | --------------- 
+ <img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/burndown.JPG"> | <img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/trello.JPG"> 
  
+Prazos e tarefas | Heroku
+---------------- | ------
+ <img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/tarefas.JPG"> | <img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/heroku.JPG">
+ 
+ 
+ Banco de Dados |
+ -------------- |
+ <img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/conceitual%201.1.jpg"> |
+ 
+ ~~~sql
+	CREATE TABLE usuarios
+	(
+	    usuario_id LONG, 
+	    usuario_nome VARCHAR(30),
+	    usuario_cpf VARCHAR(20),
+	    usuario_rg VARCHAR(20),
+	    usuario_email VARCHAR(35),
+	    usuario_senha VARCHAR(255),
+	    usuario_tipo INTEGER
+	);
 
-____________________________________________________________________________________________________________________________________________________________________________
+	CREATE TABLE tipo_usuario
+	(
+	    tipo_id LONG,
+	    tipo_nome VARCHAR(30)
+	);
 
-<br>
+	CREATE TABLE admin
+	(
+	    usuario_id LONG,
+	    tipo_usuario INTEGER,
+	    admin_setor VARCHAR(30),
+	    admin_funcao VARCHAR(30)
+	);
 
-### INSTALAÇÃO DO SISTEMA
+	CREATE TABLE colaborador_oracle
+	(
+	    usuario_id LONG,
+	    tipo_usuario INTEGER,
+	    colaborador_setor VARCHAR(30),
+	    colaborador_funcao VARCHAR(30),
+	    colaborador_tipo INTEGER
+	);
 
-Requisitos:
+	CREATE TABLE tipo_oracle
+	(
+	    oracle_id LONG,
+	    oracle_nome VARCHAR(30),
+	    oracle_prioridade INTEGER
+	);
 
-- Java  16 ou superior
-- Node.js 14.17.6 ou superior
-- NPM 4.17.1 ou superior
+	CREATE TABLE convidado
+	(
+	    usuario_id LONG,
+	    tipo_usuario INTEGER,
+	    convidado_endereco VARCHAR(30),
+	    convidado_bairro VARCHAR(30),
+	    convidado_cep VARCHAR(25),
+	    convidado_cidade VARCHAR(30),
+	    convidado_estado CHAR,
+	    convidado_pais VARCHAR(25)
+	);
 
-#### 1º Passo 
-Acesse os links abaixo, e clique no botão download para baixa-los: 
+	CREATE TABLE convidado_vacina
+	(
+	    vacina_id LONG,
+	    usuario_id INTEGER,
+	    vacina_arquivo VARCHAR(255),
+	    vacina_data_upload DATE,
+	    vacina_hora_upload VARCHAR(10),
+	    vacina_descricao VARCHAR(30)
+	);
 
-- [Backend](https://github.com/MaXximiles/API-4SEM/blob/main/C%C3%B3digo/Instala%C3%A7%C3%A3o/Back.rar) 
-- [Frontend](https://github.com/MaXximiles/API-4SEM/blob/main/C%C3%B3digo/Instala%C3%A7%C3%A3o/Front.rar)
+	CREATE TABLE eventos
+	(
+	    evento_id LONG,
+	    evento_data DATE,
+	    evento_hora_inicio DATE,
+	    evento_hora_fim VARCHAR(10),
+	    evento_local VARCHAR(30),
+	    evento_assunto VARCHAR(30),
+	    evento_descricao VARCHAR(30),
+	    evento_observacoes VARCHAR(30),
+	    usuario_id INTEGER,
+	    evento_data_criacao DATE,
+	    evento_hora_criacao VARCHAR(10),
+	    evento_status VARCHAR(15)
+	);
+
+	CREATE TABLE eventos_status
+	(
+	    status_id LONG,
+	    status_descricao VARCHAR(30)
+	);
+
+	CREATE TABLE participantes
+	(
+		evento_id LONG,
+		convidado_id INTEGER
+	);  
+~~~	
 	
-#### 2º Passo 
-Crie uma pasta com o nome de "endurance" onde desejar, extraia os dois arquivos para dentro desta pasta.
-	
-#### 3º Passo
-Com a pasta aberta aperte e segure o botão SHIFT e clique com o botão direito do mouse para abrir as opções, em seguida selecione a opção de abrir prompt de comando aqui, e digite o seguinte comando para rodar o backend:
 
-	java -jar .\endurance-0.0.1-SNAPSHOT.jar
-  
-#### 4º Passo
-Entre na pasta Front, com a pasta aberta aperte e segure o botão SHIFT e clique com o botão direito do mouse para abrir as opções, em seguida selecione a opção de abrir prompt de comando aqui, e digite o seguinte comando para rodar o Frontend:  
-	
-	ng serve -o
+ 
+ ____________________________________________________________________________________________________________________________________________________________________________
 
-#### 5º Passo
-A janela do seu navegador abrirá no sistema pronto para uso.
-Para fins de testes:
-
-    Usuário - jefh.neves@gmail.com
-    Senha - 12345
-    
-____________________________________________________________________________________________________________________________________________________________________________
-
-<br>
-
-### LINK DO PROJETO COMPLETO
-No botão abaixo é possivel ver o Github com o projeto completo:
-  
-<p align="center"><a href="https://github.com/MaXximiles/API-4SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="200" height="80"></a></p> <br>
+ 
