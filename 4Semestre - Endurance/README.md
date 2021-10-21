@@ -1,4 +1,4 @@
-## ENDURANCE - 4º SEMESTRE
+## <h1 id="topo">ENDURANCE - 4º SEMESTRE</h1>
 
 <p align="center"><img src="https://github.com/MaXximiles/API-4SEM/raw/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png" width="220" height="150"></>
 
@@ -7,13 +7,26 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
   
   <p align="center"><img src="https://user-images.githubusercontent.com/68132461/136485547-51caf0b7-0706-42d6-a387-58362765f071.gif"></img></p>
   
+ ____________________________________________________________________________________________________________________________________________________________________________
+
+<br>
+  
+  ### INDICE
+  
+  1. <a href="#resumo">RESUMO DO PROJETO</a>
+  2. <a href="#instalacao">INSTALAÇÃO DO SISTEMA</a>
+  3. <a href="#link">LINK DO PROJETO COMPLETO</a>
+  4. <a href="#tecnologias">TECNOLOGIAS UTILIZADAS</a>
+  5. <a href="#contribuicoes">CONTRIBUIÇÕES INDIVIDUAIS</a>
+  6. <a href="#aprendizado">APRENDIZADO EFETIVO</a>
+  
 ____________________________________________________________________________________________________________________________________________________________________________
 
 <br>
 
-### RESUMO DO PROJETO
+### <h3 id="resumo">RESUMO DO PROJETO</h3>
 
-<p>  O sistema Endurance foi desenvolvido para suprir a necessidade apresentada pelo Cliente, que possui um local para eventos que conta com dois espaços diferentes para tal. O primeiro espaço possui 10 vagas e o segundo 50 vagas, o controle dessas vagas deve seguir o espaçamento adotado pelas medidas de segurança contra COVID-19.</p>
+<p>  O sistema Endurance foi desenvolvido para suprir a necessidade apresentada pelo Cliente que neste caso foi a empresa Oracle, que possui um local para eventos que conta com dois espaços diferentes para tal. O primeiro espaço possui 10 vagas e o segundo 50 vagas, o controle dessas vagas deve seguir o espaçamento adotado pelas medidas de segurança contra COVID-19.</p>
 <p>  O sistema possui uma hierarquia de usuarios onde existe o convidado, colaborador e administradores.<br>
   Os usuarios se dividem em:</p>
   
@@ -39,7 +52,7 @@ ________________________________________________________________________________
 
 <br>
 
-### INSTALAÇÃO DO SISTEMA
+### <h3 id="instalacao">INSTALAÇÃO DO SISTEMA</h3>
 
 Requisitos:
 
@@ -78,8 +91,8 @@ ________________________________________________________________________________
 
 <br>
 
-### LINK DO PROJETO COMPLETO
-No botão abaixo é possivel ver o Github com o projeto completo:
+### <h3 id="link">LINK DO PROJETO COMPLETO</h3>
+Clicando no botão abaixo é possivel ver o Github do projeto completo, acompanhar as entregas das sprint's, conhecer os demais integrantes do grupo e ver a evolução do sistema:
   
 <p align="center"><a href="https://github.com/MaXximiles/API-4SEM"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="200" height="80"></a></p> <br>
 
@@ -87,21 +100,35 @@ ________________________________________________________________________________
 
 <br>
 
-### TECNOLOGIAS UTILIZADAS
-
-No projeto as tecnologias que utilizamos foram:
+### <h3 id="tecnologias">TECNOLOGIAS UTILIZADAS</h3>
 
 <p align="center"><img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/programas.png" height="600" width="900"></p>
 
-Utilizamos a linguagem Java com Springboot Maven para o Backend do projeto, pois, este framework é muito utilizado no mercado de trabalho trazendo experiência para os integrantes. 
+As tecnologias utilizadas no projeto foram: 
+ * Linguagem Java 
+ * Springboot Maven
+ * Angular
+ * Bootstrap
+ * HTML
+ * CSS3
+ * Typescript
+ * Javascript
+ * Oracle Database
+ * Oracle Cloud
+ * Node
+ * React
+ 
+Decidimos optar por utilizar Java com Springboot para o Backend do projeto, pois, este framework é muito utilizado no mercado de trabalho trazendo experiência para os integrantes. 
+
 Para o Frontend trabalhamos com o framework Angular que também é muito utilizado atualmente, utilizando biliotecas como Bootstrap e Materialize para o visual ficar mais bonito e robusto.
+
 Nosso banco de dados foi o Oracle, e hospedamos no sistema Cloud, proporcionando assim a utilização do sistema de modo remoto sem que fosse necessário a instalação local em um servidor.
 
 ____________________________________________________________________________________________________________________________________________________________________________
 
 <br>
 
-### CONTRIBUIÇÕES INDIVIDUAIS
+### <h3 id="contribuicoes">CONTRIBUIÇÕES INDIVIDUAIS</h3>
 
 Neste projeto desempenhei a função de Scrum Master do grupo onde pude desenvolver habilidades como:
 	
@@ -232,10 +259,6 @@ Prazos e tarefas | Heroku
 		convidado_id INTEGER
 	);  
 ~~~	
- 
- ____________________________________________________________________________________________________________________________________________________________________________
-
-### APRENDIZADO EFETIVO
 
 
 Neste projeto pude desenvolver conhecimentos em Frontend, tais como integração com o Backend, Typescrypt, Node e React.
@@ -354,3 +377,17 @@ Abaixo temos o protótipo da pagina inicial index.html:
 </html>
 
 ~~~~
+ 
+ ____________________________________________________________________________________________________________________________________________________________________________
+
+### <h3 id="aprendizado">APRENDIZADO EFETIVO</h3>
+
+Através deste API e dos realizados nos semestres anteriores foi possivel desenvolver habilidades em programação Java, conhecer o framework Springboot, e diversas ferramentas e bibliotecas como JavaFx, Jasper Reports, Flyway, Lombok, Hibernate, Maven, focados no Backend.
+Com conhecimento nesses recursos foi possivel desenvolver e compreender os trabalhos realizados no 2º 3º semestre e neste 4º.
+
+Porém neste projeto procurei aprender mais sobre Backend, onde pude conhecer o framework Angular, e bibliotecas como Bootstrap e Materialize que não só deixam o visual mais bonito e agradavel como facilitam a criação de layout do sistema.
+
+Além desses conhecimentos tambem pude me aprofundar no uso do banco de dados da Oracle, que possui diversas ferramentas e recursos, como Procedures, Trigger's e Function's, essas que automatizavam o funcionamento de funções do banco.
+
+
+<a href="#topo">Voltar ao topo</a>
