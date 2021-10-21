@@ -102,27 +102,29 @@ ________________________________________________________________________________
 
 ### <h3 id="tecnologias">TECNOLOGIAS UTILIZADAS</h3>
 
-<p align="center"><img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/programas.png" height="600" width="900"></p>
-
 As tecnologias utilizadas no projeto foram: 
+ 
+ Back-End:
  * Linguagem Java 
  * Springboot Maven
+ 	A esolha do Java com Springboot foi feita, pois, a programação se torna mais agil e mais rapida de ser feita. o Framework Spring visa facilitar a configuração dos projetos de modo a não ser necessário a criação de arquivos de configuração por parte dos desenvolvedores.
+
+Front-End:
  * Angular
  * Bootstrap
  * HTML
  * CSS3
  * Typescript
  * Javascript
- * Oracle Database
- * Oracle Cloud
  * Node
  * React
+ 	A escolha do do framework Angula se deve pela sua grande fonte de bibliotecas para desenvolvimento de layout's, como templates, modulos, ferramentas de infraestrutura e automatização de tarefas. Uma das bibliotecas utilizadas no projeto foi o Bootstrap que além de seu praticidade de inclusão no sistema tambem possui uma grande gama de componentes para adequação no projeto.
+
+Banco de Dados:
+ * Oracle Database
+ * Oracle Cloud
+ 	Utilizamos o banco de dados Oracle, pois, além de ser o banco estudado no semestre, também é o nosso cliente no projeto. Para a implementação da database utilizamos o Oracle Cloud que nos permitiu hospedar o banco de forma gratuita e remota, nos permitindo acessar a API hospedada em um servidor web na plataforma Heroku.
  
-Decidimos optar por utilizar Java com Springboot para o Backend do projeto, pois, este framework é muito utilizado no mercado de trabalho trazendo experiência para os integrantes. 
-
-Para o Frontend trabalhamos com o framework Angular que também é muito utilizado atualmente, utilizando biliotecas como Bootstrap e Materialize para o visual ficar mais bonito e robusto.
-
-Nosso banco de dados foi o Oracle, e hospedamos no sistema Cloud, proporcionando assim a utilização do sistema de modo remoto sem que fosse necessário a instalação local em um servidor.
 
 ____________________________________________________________________________________________________________________________________________________________________________
 
