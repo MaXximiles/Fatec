@@ -387,6 +387,24 @@ Abaixo temos o protótipo da pagina inicial index.html:
 
 ~~~~
  
+Na parte de Backend utilizei a ferramenta Jasper Reports para criação de relatórios no sistema, criamos os seguintes relatórios:
+
+- Relatório de Eventos por periodo:
+
+Imagem do relatório 
+
+- Relatório de Colaboradores que realizaram eventos por periodos:
+
+Imagem do relatório
+
+- Relatório de Participantes de eventos:
+
+Imagem do relatório 
+
+Abaixo temos o código para criação destes relatórios:
+
+Código dos relatórios
+ 
  ____________________________________________________________________________________________________________________________________________________________________________
 
 ### <h3 id="aprendizado">APRENDIZADO EFETIVO</h3>
