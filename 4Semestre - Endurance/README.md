@@ -405,9 +405,9 @@ Imagem do relatório
 Imagem do relatório 
 
 Abaixo temos o código para criação destes relatórios:
-
+~~~~
 Código dos relatórios
-
+~~~~
 Os relatórios são partes importantes de um sistema, pois ele fornece de forma rapida e simples informações de grande valia para a empresa.
  
  ____________________________________________________________________________________________________________________________________________________________________________
