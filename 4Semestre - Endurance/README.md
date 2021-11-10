@@ -390,20 +390,25 @@ Abaixo temos o protótipo da pagina inicial index.html:
 Na parte de Backend utilizei a ferramenta Jasper Reports para criação de relatórios no sistema, criamos os seguintes relatórios:
 
 - Relatório de Eventos por periodo:
+Este relatório traz informações de todos os eventos realizados no periodo selecionado pelo usuario, dessa forma ele pode visualizar a quantidade de eventos, quando foram realizados, quem realizou e onde foi realizado.
 
 Imagem do relatório 
 
 - Relatório de Colaboradores que realizaram eventos por periodos:
+Através deste relatório é possivel observar os colaboradores que realizaram eventos no periodo selecionado, assim sabendo o assunto do evento, horario de realização e quantos eventos foram realizados por cada colaborador. 
 
 Imagem do relatório
 
 - Relatório de Participantes de eventos:
+- Neste relatório é possivel visualizar a quantidade de participantes dos eventos, sendo possivel distinguir do publico interno e externo, sabendo o alcance do sistema de eventos da Casa Oracle.
 
 Imagem do relatório 
 
 Abaixo temos o código para criação destes relatórios:
 
 Código dos relatórios
+
+Os relatórios são partes importantes de um sistema, pois ele fornece de forma rapida e simples informações de grande valia para a empresa.
  
  ____________________________________________________________________________________________________________________________________________________________________________
 
