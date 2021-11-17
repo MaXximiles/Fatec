@@ -387,7 +387,150 @@ Abaixo temos o protótipo da pagina inicial index.html:
 
 ~~~~
  
-Na parte de Backend utilizei a ferramenta Jasper Reports para criação de relatórios no sistema, criamos os seguintes relatórios:
+Para elaboração dos relatórios utilizei a biblioteca iText do java, onde me permitiu criar documentos .pdf e manipula-los. Para realizar a escrita nesses arquivos foi escrito o escopo em HTML e convertido através da biblioteca HTMLConverter, veja abaixo trecho do código:
+
+
+Este é o código usado para criar um Relatório de usuarios vacinas.
+~~~~
+        Connection conn = null;
+        ResultSet resultadoBanco = null;
+        conn = DBConexao.abrirConexao();
+        Statement stm = conn.createStatement();
+~~~~
+Acima criamos a conexão, utilizando o método abrirConexao da classe DBConexao.
+Abaixo vamos criar a string contendo a query sql a ser executada.
+~~~~
+        String sql;
+        if(vacinados == 1)//TODOS OS USUARIOS QUE SÃO VACINADOS
+        {
+            sql = " SELECT usr_nome, usr_sobrenome, usr_email, usr_vacina, usr_ativo FROM USUARIOS " +
+                  " WHERE usr_vacina IS NOT NULL " +
+                  " ORDER BY usr_nome ";
+        }
+        else//TODOS OS USUARIOS
+        {
+            sql = " SELECT usr_nome, usr_sobrenome, usr_email, usr_vacina, usr_ativo FROM USUARIOS " +
+                  " ORDER BY usr_nome ";
+        }
+        resultadoBanco = stm.executeQuery(sql);
+
+        int qtdVacinados = 0;
+        int qtdUsuarios = 0;
+        ResultSet numVacinados;
+        Statement stm1 = conn.createStatement();
+        ResultSet numUsuarios;
+        Statement stm2 = conn.createStatement();
+
+        String sql1 = " SELECT COUNT(usr_vacina) FROM USUARIOS "; //QTD de usuarios vacinados
+        numVacinados = stm1.executeQuery(sql1);
+        while(numVacinados.next()){ qtdVacinados = numVacinados.getInt("COUNT(usr_vacina)");}
+
+        String sql2 = " SELECT COUNT(usr_email) FROM USUARIOS "; //QTD de usuarios no sistema
+        numUsuarios = stm2.executeQuery(sql2);
+        while(numUsuarios.next()){ qtdUsuarios = numUsuarios.getInt("COUNT(usr_email)");}
+
+        int i = 1;
+        int numPag = 1;
+        String cor = "#C0C0C0";
+        String htmlText1 = "";
+        String htmlText2 = "";
+        String htmlText3 = "";
+~~~~ 
+Depois de criarmos as intruções sql, precisamos pegar os resultados de forma a exibir ao usuario, então para isso no código abaixo salvamos os resultados do banco em strings, e montamos nossa tabela de exibição utilizando o HTML. Dentro do laço while criamos uma linha da tabela para cada resultado da busca sql que fizemos.
+~~~~
+        while(resultadoBanco.next())
+        {
+            /* Pegando variaveis do banco */
+            String usr_nome = (resultadoBanco.getString("usr_nome"));
+            String usr_nome2 = (resultadoBanco.getString("usr_sobrenome"));
+            String usr_email = (resultadoBanco.getString("usr_email"));
+            int usr_status = (resultadoBanco.getInt("usr_ativo"));
+            String usr_vacina = (resultadoBanco.getString("usr_vacina"));
+
+            String status = "";
+            if(usr_status == 1){ status = " Ativo ";}
+
+            String vacina = "";
+            if(usr_vacina != null){vacina = " Vacinado ";}
+            else{vacina = " Não vacinado ";}
+
+            if(i % 2 == 0) {cor = "#DCDCDC";}
+            else {cor = "#C0C0C0";}
+
+            /* Montando tabela para exibição dos dados */
+            htmlText2 += "<tr bgcolor='"+cor+"'> \n" +
+                    " <td >"+usr_nome+" "+usr_nome2+" </td> \n" +
+                    " <td align='center'>"+ usr_email + "</td> \n" +
+                    " <td align='center'>"+ status + "</td> \n" +
+                    " <td align='center'>"+ vacina + "</td> \n" +
+                    " </tr> \n" +
+                    "\n";
+            i++;
+        }
+~~~~
+Colocamos tambem uma alternancia de cores nas linhas da tabela para ficar mais facil a leitura de varios dados.
+Após a leitura de todos os dados salvamos tudo em uma variavel no caso "htmlText2".
+Depois disso o proximo passo é terminar de montar o HTML, então dessa forma criamos mais duas variáveis "htmlText1" e "htmlText2" uma contendo o inicio do documento html como as tags <html> e <body>, tambem utilizamos para abrir a nossa <table> e nossa <tr> de titulo pois esses dados são estaticos.
+Ja na variavel htmlText3 salvamos o fechamento do documento, onde finalizamos as tags que foram abertas.
+No final juntamos as três strings de forma a criar um HTML completo.
+~~~~
+        int nVacinados = qtdUsuarios-qtdVacinados;
+        htmlText1 = "<html> \n" +
+                "<body> \n" +
+                " \n" +
+                " <table cellspacing='0' cellpadding='0' border='1' width='100%' style='border-color:Black;'> \n" +
+                " \n" +
+                " <tr bgcolor='#4169E1'>\n" +
+                " <td colspan='4' align='center' valign='middle'> \n" +
+                " <img src='./endurance_logoB.png' width='70' height='50'> \n" +
+                " <font color='white' size='+2'><b>  RELATÓRIO DE USUARIOS E VACINA </b></font>\n" +
+                " </td>\n" +
+                " </tr>\n " +
+                " \n" +
+                " <tr bgcolor='#4169E1'>\n" +
+                " <td colspan='4'><font color='white'><b>" +
+                " Total de Usuários do Sistema: "+qtdUsuarios+" <br>" +
+                " Total de Usuários Vacinados: "+qtdVacinados+" <br>" +
+                " Total de Usuários Não Vacinados "+nVacinados+
+                " </b></font></td>" +
+                " </tr>\n" +
+                " <tr bgcolor='#4169E1'> \n" +
+                " <td align='center'><b><font color='white'> USUÁRIO </font></b></td> \n" +
+                " <td align='center'><b><font color='white'> EMAIL </font></b></td> \n" +
+                " <td align='center'><b><font color='white'> STATUS </font></b></td> \n" +
+                " <td align='center'><b><font color='white'> VACINA </font></b></td> \n" +
+                " </tr> \n" +
+                " \n";
+
+        htmlText3 = "</table>"
+                + "</body> \n </html> \n";
+
+        String htmlText = htmlText1+htmlText2+htmlText3;
+~~~~
+Após criado no varivel htmlText que contem todo o HTML com as informações que desejamos, vamos ao passo de criar o documento .pdf, para isso criamos uma pasta no disco local C: com o nome de "endurance" de form a deixar os arquivos organizados dentro dela.
+Depois de criar a pasta criamos o documento e utilizamos o comando "HtmlConverter.convertToPdf" para transformar a string htmlText em um arquivo .pdf. Abaixo segue trecho do código que realiza essas operações:
+
+~~~~
+        /* Criando novo documento pdf para relatório */
+        Document document = new Document();
+        document.open();
+
+        DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
+        Date date = new Date();
+        String dataTitulo = dateFormat.format(date);
+
+        File pasta = new File("C:\\endurance");
+        pasta.mkdir();
+
+        /* Convertendo String para HTML e salvando no arquivo final */
+        HtmlConverter.convertToPdf(htmlText, new FileOutputStream("C:\\endurance\\Relatorio_Vacina_"+dataTitulo+".pdf"));
+        /* ******************************************************************************************
+         *  MUDAR PARA SALVAR ONDE O USUÁRIO DESEJAR *************************************************
+         ******************************************************************************************* */
+        document.close();
+    }
+    
+ ~~~~
 
 - Relatório de Eventos por periodo:
 Este relatório traz informações de todos os eventos realizados no periodo selecionado pelo usuario, dessa forma ele pode visualizar a quantidade de eventos, quando foram realizados, quem realizou e onde foi realizado.
