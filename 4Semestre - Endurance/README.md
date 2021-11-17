@@ -386,19 +386,19 @@ Abaixo temos o protótipo da pagina inicial index.html:
 </html>
 
 ~~~~
- 
+
+
 Para elaboração dos relatórios utilizei a biblioteca iText do java, onde me permitiu criar documentos .pdf e manipula-los. Para realizar a escrita nesses arquivos foi escrito o escopo em HTML e convertido através da biblioteca HTMLConverter, veja abaixo trecho do código:
 
 
-Este é o código usado para criar um Relatório de usuarios vacinas.
+- Este é o código usado para criar um Relatório de usuarios vacinas.
 ~~~~
         Connection conn = null;
         ResultSet resultadoBanco = null;
         conn = DBConexao.abrirConexao();
         Statement stm = conn.createStatement();
 ~~~~
-Acima criamos a conexão, utilizando o método abrirConexao da classe DBConexao.
-Abaixo vamos criar a string contendo a query sql a ser executada.
+- Acima criamos a conexão, utilizando o método abrirConexao da classe DBConexao. Abaixo vamos criar a string contendo a query sql a ser executada.
 ~~~~
         String sql;
         if(vacinados == 1)//TODOS OS USUARIOS QUE SÃO VACINADOS
@@ -436,7 +436,7 @@ Abaixo vamos criar a string contendo a query sql a ser executada.
         String htmlText2 = "";
         String htmlText3 = "";
 ~~~~ 
-Depois de criarmos as intruções sql, precisamos pegar os resultados de forma a exibir ao usuario, então para isso no código abaixo salvamos os resultados do banco em strings, e montamos nossa tabela de exibição utilizando o HTML. Dentro do laço while criamos uma linha da tabela para cada resultado da busca sql que fizemos.
+- Depois de criarmos as intruções sql, precisamos pegar os resultados de forma a exibir ao usuario, então para isso no código abaixo salvamos os resultados do banco em strings, e montamos nossa tabela de exibição utilizando o HTML. Dentro do laço while criamos uma linha da tabela para cada resultado da busca sql que fizemos.
 ~~~~
         while(resultadoBanco.next())
         {
@@ -468,11 +468,11 @@ Depois de criarmos as intruções sql, precisamos pegar os resultados de forma a
             i++;
         }
 ~~~~
-Colocamos tambem uma alternancia de cores nas linhas da tabela para ficar mais facil a leitura de varios dados.
-Após a leitura de todos os dados salvamos tudo em uma variavel no caso "htmlText2".
-Depois disso o proximo passo é terminar de montar o HTML, então dessa forma criamos mais duas variáveis "htmlText1" e "htmlText2" uma contendo o inicio do documento html como as tags <html> e <body>, tambem utilizamos para abrir a nossa <table> e nossa <tr> de titulo pois esses dados são estaticos.
-Ja na variavel htmlText3 salvamos o fechamento do documento, onde finalizamos as tags que foram abertas.
-No final juntamos as três strings de forma a criar um HTML completo.
+- Colocamos tambem uma alternancia de cores nas linhas da tabela para ficar mais facil a leitura de varios dados.
+- Após a leitura de todos os dados salvamos tudo em uma variavel no caso "htmlText2".
+- Depois disso o proximo passo é terminar de montar o HTML, então dessa forma criamos mais duas variáveis "htmlText1" e "htmlText2" uma contendo o inicio do documento html como as tags "html" e "body", tambem utilizamos para abrir a nossa "table" e nossa "tr" de titulo pois esses dados são estaticos.
+- Ja na variavel htmlText3 salvamos o fechamento do documento, onde finalizamos as tags que foram abertas. No final juntamos as três strings de forma a criar um HTML completo.
+
 ~~~~
         int nVacinados = qtdUsuarios-qtdVacinados;
         htmlText1 = "<html> \n" +
@@ -507,8 +507,8 @@ No final juntamos as três strings de forma a criar um HTML completo.
 
         String htmlText = htmlText1+htmlText2+htmlText3;
 ~~~~
-Após criado no varivel htmlText que contem todo o HTML com as informações que desejamos, vamos ao passo de criar o documento .pdf, para isso criamos uma pasta no disco local C: com o nome de "endurance" de form a deixar os arquivos organizados dentro dela.
-Depois de criar a pasta criamos o documento e utilizamos o comando "HtmlConverter.convertToPdf" para transformar a string htmlText em um arquivo .pdf. Abaixo segue trecho do código que realiza essas operações:
+- Após criado no varivel htmlText que contem todo o HTML com as informações que desejamos, vamos ao passo de criar o documento .pdf, para isso criamos uma pasta no disco local C: com o nome de "endurance" de form a deixar os arquivos organizados dentro dela.
+- Depois de criar a pasta criamos o documento e utilizamos o comando "HtmlConverter.convertToPdf" para transformar a string htmlText em um arquivo .pdf. Abaixo segue trecho do código que realiza essas operações:
 
 ~~~~
         /* Criando novo documento pdf para relatório */
@@ -532,25 +532,14 @@ Depois de criar a pasta criamos o documento e utilizamos o comando "HtmlConverte
     
  ~~~~
 
-- Relatório de Eventos por periodo:
-Este relatório traz informações de todos os eventos realizados no periodo selecionado pelo usuario, dessa forma ele pode visualizar a quantidade de eventos, quando foram realizados, quem realizou e onde foi realizado.
+Foram criados 3 relatórios contendo as seguintes informações:
 
-Imagem do relatório 
-
-- Relatório de Colaboradores que realizaram eventos por periodos:
-Através deste relatório é possivel observar os colaboradores que realizaram eventos no periodo selecionado, assim sabendo o assunto do evento, horario de realização e quantos eventos foram realizados por cada colaborador. 
-
-Imagem do relatório
-
-- Relatório de Participantes de eventos:
-- Neste relatório é possivel visualizar a quantidade de participantes dos eventos, sendo possivel distinguir do publico interno e externo, sabendo o alcance do sistema de eventos da Casa Oracle.
-
-Imagem do relatório 
-
-Abaixo temos o código para criação destes relatórios:
-~~~~
-Código dos relatórios
-~~~~
+ EXEMPLO | DESCRIÇÃO 
+ ------------------- | --------------- 
+ <img src="https://github.com/MaXximiles/Fatec/blob/master/src/relatEventos.PNG?raw=true"> | Relatório de Eventos por período: Através deste relatório é possivel observar os eventos realizados no periodo selecionado, assim sabendo o assunto do evento, horario de realização, local e status do evento.
+ <img src="https://github.com/MaXximiles/Fatec/blob/master/src/relatUsuarios.PNG?raw=true"> | Relatório de Eventos por usuário: Através deste relatório é possivel observar os colaboradores que realizaram eventos, assim sabendo o assunto do evento, horario de realização, local, e é possivel filtrar por todos os usuários assim sendo possivel visualizar todos os eventos que todos os usuários realizaram. 
+ <img src="https://github.com/MaXximiles/Fatec/blob/master/src/relatVacina.PNG?raw=true"> | Relatório de Vacinas: Através deste relatório é possivel visualizar o estado de vacinação dos usuários cadastrados no sistema, onde é possivel filtrar por todos os usuários ou por usuários vacinados.
+ 
 Os relatórios são partes importantes de um sistema, pois ele fornece de forma rapida e simples informações de grande valia para a empresa.
  
  ____________________________________________________________________________________________________________________________________________________________________________
