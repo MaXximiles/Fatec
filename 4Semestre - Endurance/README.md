@@ -156,6 +156,7 @@ Neste projeto desempenhei a função de Scrum Master do grupo onde pude desenvol
  * BackEnd:
  	* Integração com flyway;
  	* Idéias de funções de validação de formulários, como cadastros de usuarios, fornecedores e eventos;
+ 	* Modulo de geração de relatórios;
  * Banco de Dados:
  	* Elaboração do banco de dados;
  	* Modelo conceitual e lógico do banco;
@@ -176,6 +177,8 @@ Prazos e tarefas | Heroku
  -------------- |
  <img src="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/src/conceitual%201.1.jpg"> |
  
+ 
+ Abaixo segue o código sql criado para o banco de dados, mostrando a criação das tabelas utilizadas no projeto.
  ~~~sql
 	CREATE TABLE usuarios
 	(
