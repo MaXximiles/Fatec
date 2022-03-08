@@ -1,20 +1,35 @@
-# PORTIFÓLIO DE API's 
-#### MAXIMILES BARCELOS - FATEC 2020 - 2022
+# MAXIMILES BARCELOS
 <a href="https://www.linkedin.com/in/maxx-barcelos-aaa106b2"> <img src= "https://img.shields.io/badge/Maximiles%20Barcelos%20--%20Scrum%20Master-Linkedin-blue"></a> <br>
 <br>
+Olá, este é meu portfólio de projetos desenvolvidos durante o curso de graduação superior em Banco de Dados pela FATEC Jessen Vidal em São José dos Campos. 
 
-### SARAH 1º SEMESTRE
+## Projetos FATEC 2020 - 2022
 
+### SARAH 1º SEMESTRE 2020-1
 
-Sarah é uma assistente virtual voltada para funcionalidades de RH, o tema foi definido de acordo com as funções que acreditamos ser relevantes para o curso, como uma busca em um banco de dados ou simplesmente cálculos rescisórios dos quais utilizamos lógica de programação.
+<p>De acordo com o que nos foi proposto pelo time de docentes da FATEC, desenvolvemos uma assistente virtual interativa, onde o foco principal era a utilização de comandos por voz.</p>
+<p>Com essa idéia desenvolvemos uma assistente virtual de Recursos Humanos, onde era possivel a contratação, demissão com calculo recisório e todo o controle de funcionários de uma empresa.</p>
+<p>Sarah é uma assistente virtual voltada para funcionalidades de RH, o tema foi definido de acordo com as funções que acreditamos ser relevantes para o curso, como uma busca em um banco de dados ou simplesmente cálculos rescisórios dos quais utilizamos lógica de programação.</p>
 
-#### SCREENSHOTS
+#### TECNOLOGIAS UTILIZADAS
+
+<p>Para este projeto utilizamos a linguagem Python, banco de dados postgresql e a biblioteca do Google Speech Recognition para reconhecimento de voz.</p>
+
+#### CONTRIBUIÇÕES PESSOAIS
+
+<p>Neste primeiro projeto, tivemos a orientação e inserção na metodologia SCRUM, onde, um aluno do ultimo semestre do curso assumiu o papel de Master, nos auxiliando nas atividades.</p>
+<p>Através disso foram dividos diferentes tarefas entre os integrantes do grupo, sendo eu o responsável pela integração com o banco de dados e com a biblioteca Speech Recoginition.</p>
+<p><b>Hard Skills:</b> Python, GitHub, Postgresql, Metodologia SCRUM.</p>
+<p><b>Soft Skills:</b> Entendimento da metodologia SCRUM, iniciação em linguagem Python. </p>
+<br>
+
+#### IMAGENS
 
 ![SARAH1.PNG](https://github.com/MaXximiles/Fatec/blob/master/src/SARAH1.PNG?raw=true) | ![SARAH1.PNG](https://github.com/MaXximiles/Fatec/blob/master/src/SARAH2.PNG?raw=true)
 --------- | --------
 
 
-<p align="center"><a href="https://github.com/MaXximiles/Fatec/blob/master/1Semestre%20-%20SARAH/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquisarah.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><b>Para acessar o repositório completo deste projeto é só acessar através do votão abaixo: </b><br>  <a href="https://github.com/MaXximiles/Fatec/blob/master/1Semestre%20-%20SARAH/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquisarah.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
 ### YOURCAD - 2º SEMESTRE
