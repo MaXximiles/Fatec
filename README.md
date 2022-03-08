@@ -46,7 +46,10 @@ ________________________________________________________________________________
 #### CONTRIBUIÇÕES PESSOAIS
 
 <p>Neste projeto desmpenhei a função de Master do grupo, onde pude entender melhor a metodologia SCRUM e aplica-la, utilizando a ferramenta Trello, para controlar as atividades e seus prazos.</p>
-<p>Pude trabalhar na implementação do back-End e através da linguagem orientada a objetos foi possivel desenvolver o front-end tambem. </p>
+<p>Pude trabalhar na implementação do back-end e através da linguagem orientada a objetos foi possivel desenvolver o front-end tambem. </p>
+<p><b>Hard Skills:</b> Java, GitHub, MySql, Metodologia SCRUM como Master.</p>
+<p><b>Soft Skills:</b> Desempenahndo a função de Master pude designar funções e prazos, criando assim uma visão do projeto ao todo. A iniciação na linguagem Java permitiu conhecer a linguagem orientada a objetos. </p>
+<br>
 
  #### IMAGENS
  
@@ -54,8 +57,7 @@ ________________________________________________________________________________
 --------- | --------
 
 
-<p align="center"><b>Acesse o repositório completo clicando abaixo</b><br>
- <a href="https://github.com/MaXximiles/Fatec/blob/master/2Semestre%20-%20Yourcad/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><b>Acesse o repositório completo clicando abaixo</b><br><a href="https://github.com/MaXximiles/Fatec/blob/master/2Semestre%20-%20Yourcad/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
 ### TRACE FINDER - 3º SEMESTRE
