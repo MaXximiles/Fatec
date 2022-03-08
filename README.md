@@ -32,19 +32,30 @@ Olá, este é meu portfólio de projetos desenvolvidos durante o curso de gradua
 <p align="center"><b>Para acessar o repositório completo deste projeto é só acessar através do votão abaixo: </b><br>  <a href="https://github.com/MaXximiles/Fatec/blob/master/1Semestre%20-%20SARAH/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquisarah.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
-### YOURCAD - 2º SEMESTRE
+### YOURCAD 2º SEMESTRE 2020-2
 
 <p align="center"><img src="https://raw.githubusercontent.com/labarro/projeto-integrador-2sem/master/LogoYCad.png" width="280" height="120"></>
  
 
-Em contato com a empresa TecSUS descobrimos que a principal dificuldade da mesma está no cadastro manual de faturas, que por falta de padronização por parte das concessionarias responsaveis, acarretam em dados que não podem ser lidos automaticamente pelo sistema ja implementado na empresa. Tendo em vista esse obstáculo, desenvolvemos este projeto visando um sistema simples e intuitivo, que reduza a chance de erros na hora de inserção de dados por parte do operador, proporcionando redução no tempo de digitação, retrabalho e minimizando assim tempo de execução dessas operações.
+<p>Em parceria com a empresa TecSUS descobrimos que a principal dificuldade da mesma está no cadastro manual de faturas, que por falta de padronização por parte das concessionarias responsaveis, acarretam em dados que não podem ser lidos automaticamente pelo sistema ja implementado na empresa. Tendo em vista esse obstáculo, desenvolvemos o projeto visando um sistema simples e intuitivo, que reduza a chance de erros na hora de inserção de dados por parte do operador, proporcionando redução no tempo de digitação, retrabalho e minimizando assim tempo de execução dessas operações.</p>
 
- #### SCREENSHOTS
+#### TECNOLOGIAS UTILIZADAS
+
+<p> Neste segundo projeto utilizamos a linguagem Java, integrando com um banco de dados MySql. </p>
+
+#### CONTRIBUIÇÕES PESSOAIS
+
+<p>Neste projeto desmpenhei a função de Master do grupo, onde pude entender melhor a metodologia SCRUM e aplica-la, utilizando a ferramenta Trello, para controlar as atividades e seus prazos.</p>
+<p>Pude trabalhar na implementação do back-End e através da linguagem orientada a objetos foi possivel desenvolver o front-end tambem. </p>
+
+ #### IMAGENS
+ 
 ![yourcad.JPG](https://github.com/MaXximiles/Fatec/blob/master/src/yourcad.JPG) | ![yourcad2.JPG](https://github.com/MaXximiles/Fatec/blob/master/src/yourcad2.JPG)
 --------- | --------
 
 
-<p align="center"><a href="https://github.com/MaXximiles/Fatec/blob/master/2Semestre%20-%20Yourcad/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><b>Acesse o repositório completo clicando abaixo</b><br>
+ <a href="https://github.com/MaXximiles/Fatec/blob/master/2Semestre%20-%20Yourcad/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiyourcad.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
 ### TRACE FINDER - 3º SEMESTRE
