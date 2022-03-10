@@ -66,7 +66,7 @@ ________________________________________________________________________________
 
 O Trace Finder tem como objetivo ser uma aplicação que permite manter, customizar e versionar partes de documentos que são armazenados em arquivos PDF, a partir disso, utilizando regras específicas, é possível gerar documentos finais que integrem as partes selecionadas.
 
-#### SCREENSHOTS
+#### IMAGENS
 ![](https://user-images.githubusercontent.com/68132461/120643272-535b8f00-c44c-11eb-9f02-31ea6213d256.png) | ![](https://user-images.githubusercontent.com/68132461/123145337-1d01a600-d433-11eb-9a78-4dd6eae83a47.png)
 --------- | --------
 
@@ -79,7 +79,7 @@ ________________________________________________________________________________
 
 O sistema Endurance tem como objetivo principal o gerenciamento de eventos, possibilitando a criação e o controle aos colaboradores da empresa. O público externo poderá ser cadastrado no sistema para participar dos eventos, seguindo as restrições sanitárias devido a pandemia e a validação do comprovante de vacinação contra SARS-CoV-2, tanto para dose única quanto para demais doses. Os usuários cadastrados serão notificados sobre novos eventos e atualizações via e-mail.
 
- #### SCREENSHOTS
+ #### IMAGENS
 ![](https://user-images.githubusercontent.com/68132461/136485547-51caf0b7-0706-42d6-a387-58362765f071.gif) |
 --------- | 
 
