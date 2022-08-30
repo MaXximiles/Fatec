@@ -114,7 +114,7 @@ ________________________________________________________________________________
 
  #### TECNOLOGIAS UTILIZADAS
  
- Neste terceiro projeto utilizamos as seguintes tecnologias:
+ Neste quarto projeto utilizamos as seguintes tecnologias:
   - Java com Springboot;
   - Angular;
   - Oracle CLoud para banco de dados;
@@ -133,3 +133,44 @@ ________________________________________________________________________________
 --------- | 
 
 <p align="center"><a href="https://github.com/MaXximiles/Fatec/blob/master/4Semestre%20-%20Endurance/README.md"> <img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
+
+________________________________________________________________________________________________________________________________________________________________________________
+### FIND DATA - 5º SEMESTRE 2022-1
+
+<p align="center"><img src="https://github.com/MaXximiles/API-4SEM/raw/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png" width="220" height="150"></>
+<p>Find Data foi o projeto do 5º semestre tendo como foco a analíse de dados.</p>
+<p>O cliente deste projeto foi á SPC, empresa que possui um grande banco de dados com informações de seus clientes. A proposta para esse sistema foi de criar uma ferramenta que facilitasse a gerencia de potenciais clientes para os vendedores da SPC.</p>
+<p>Filtrando uma base de dados disponibilizada pela SPC a Find Data recolhe e processa esses dados para filtrar potenciais empresas com base em consumo mensal.</p>
+
+ #### TECNOLOGIAS UTILIZADAS
+ 
+ Neste quinto projeto utilizamos as seguintes tecnologias:
+ - VUE
+ - SCSS
+ - JAVA
+ - JavaScript
+ - HTML
+ - TypeScript
+ - SpringBoot
+ - Visual Studio Code
+ - MySQL
+ - Banco de Dados AWS com MySQL
+ - Firebase
+ - Heroku
+  
+ #### CONTRIBUIÇÕES PESSOAIS
+ 
+<p>Neste projeto desempenhei a função de desenvolvedor backend, frontend e SCRUM Master.</p>
+<p>A carga deste projeto foi um pouco mais pesada que a dos outros, devido o defict de integrantes do grupo. Porém foi possível entregar um bom resultado.</p>
+<p>Este foi meu primeiro contato com o frontend utilizando a linguagem VUE que possibilitou um grande aprendizado pessoal.</p>
+
+<p><b>Hard Skills:</b> Java, Springboot, VUE, JavaScript, Typescript, Metodologia SCRUM como Master.</p>
+<p><b>Soft Skills:</b> O foco neste projeto foi a analíse de dados, porém com o aprendizado de frontend foi possivel desenvolver gráficos que geraram um bom resultado visual. </p>
+<br>
+ 
+ #### IMAGENS
+![](https://raw.githubusercontent.com/MaXximiles/API5-SEM/main/Documenta%C3%A7%C3%A3o/src/3Sprint_dashboard_inteligencia.PNG) | ![](https://raw.githubusercontent.com/MaXximiles/API5-SEM/main/Documenta%C3%A7%C3%A3o/src/3Sprint_Modal_aceita_carteira.PNG)
+--------- | --------
+
+<p align="center"><a href="https://github.com/MaXximiles/API5-SEM"><img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
+
