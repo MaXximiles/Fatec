@@ -137,7 +137,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________________________________________________
 ### FIND DATA - 5º SEMESTRE 2022-1
 
-<p align="center"><img src="https://github.com/MaXximiles/API-4SEM/raw/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png" width="220" height="150"></>
+<p align="center"><img src="https://user-images.githubusercontent.com/68132461/163346757-0757c301-4226-442f-aa6b-f75321aa10fe.png" width="220" height="150"></>
 <p>Find Data foi o projeto do 5º semestre tendo como foco a analíse de dados.</p>
 <p>O cliente deste projeto foi á SPC, empresa que possui um grande banco de dados com informações de seus clientes. A proposta para esse sistema foi de criar uma ferramenta que facilitasse a gerencia de potenciais clientes para os vendedores da SPC.</p>
 <p>Filtrando uma base de dados disponibilizada pela SPC a Find Data recolhe e processa esses dados para filtrar potenciais empresas com base em consumo mensal.</p>
