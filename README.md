@@ -109,23 +109,23 @@ ________________________________________________________________________________
 
 <p align="center"><img src="https://github.com/MaXximiles/API-4SEM/raw/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png" width="220" height="150"></>
 <p>Endurance foi o quarto sistema desenvolvido no curso e tem como objetivo principal o gerenciamento de eventos, possibilitando a criação e o controle aos colaboradores da empresa.</p>
-<p>Nosso cliente neste projeto foi a empresa ORACLE, que possui um espaço para eventos, com duas salas dcom capacidades diferentes. O foco do projeto é o agendamento destas salas seguindo o numero maximo de pessoas que podem assistir os eventos de acordo as normas de espaçamento pessoal devido a pandemia.</p>
-<p>O público externo poderá ser cadastrado no sistema para participar dos eventos, seguindo a validação do comprovante de vacinação contra SARS-CoV-2, tanto para dose única quanto para demais doses. Os usuários cadastrados serão notificados sobre novos eventos e atualizações via e-mail.</p>
+<p>Neste projeto envolveu a empresa ORACLE, que possui um espaço para eventos, com duas salas com capacidades fisícas diferentes. O foco do projeto consistiu no agendamento destas salas seguindo o numero de pessoas que podem assistir os eventos de acordo com as normas de espaçamento pessoal devido a pandemia.</p>
+<p>Com o agendamento das salas o público externo poderá ser cadastrado no sistema para participar dos eventos, seguindo a validação do comprovante de vacinação contra SARS-CoV-2, tanto para dose única quanto para demais doses. Os usuários cadastrados serão notificados sobre novos eventos e atualizações via e-mail.</p>
 
  #### TECNOLOGIAS UTILIZADAS
  
- Neste quarto projeto utilizamos as seguintes tecnologias:
+ Neste quarto projeto utilizaram as seguintes tecnologias:
   - Java com Springboot;
   - Angular;
   - Oracle CLoud para banco de dados;
   
  #### CONTRIBUIÇÕES PESSOAIS
  
-<p>Neste projeto pude focar mais na gerencia do grupo, desempenhando a função de master e gerenciando melhor a equipe. O grupo teve melhor rendimento com a divisão de tarefas e comprimento dos prazos.</p>
-<p>O projeto tinha grande foco no banco de dados Oracle Cloud, permitindo a criação de funções dentro do projeto para execução do sistema.</p>
+<p>Neste projeto pude focar mais no gerenciamento do grupo, desempenhando a função de master obtendo melhor rendimento com a divisão de tarefas e comprimento dos prazos.</p>
+<p>O projeto teve grande foco no banco de dados Oracle Cloud, o que permitiu a criação de funções dentro do projeto para execução do sistema.</p>
 
 <p><b>Hard Skills:</b> Java, Springboot, Oracle Cloud, Heroku, Metodologia SCRUM como Master.</p>
-<p><b>Soft Skills:</b> Tendo como foco o Oracle Cloud o projeto permitiu a integração com o projeto e o contato com a ferramenta.  </p>
+<p><b>Soft Skills:</b> Com o foco no Oracle Cloud, o projeto permitiu a integração e o contato com a ferramenta.  </p>
 <br>
  
  #### IMAGENS
