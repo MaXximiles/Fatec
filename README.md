@@ -178,31 +178,25 @@ ________________________________________________________________________________
 ### FIND DATA - 6º SEMESTRE 2022-2
 
 <p align="center"><img src="https://github.com/API-6-SEMESTRE/Documentacao/raw/main/logo/logofinal_Branco.jpg" width="220" height="150"></>
-<p>Find Data foi o projeto do 5º semestre tendo como foco a analíse de dados.</p>
-<p>O cliente deste projeto foi á SPC, empresa que possui um grande banco de dados com informações de seus clientes. A proposta para esse sistema foi de criar uma ferramenta que facilitasse a gerencia de potenciais clientes para os vendedores da SPC.</p>
-<p>Filtrando uma base de dados disponibilizada pela SPC a Find Data recolhe e processa esses dados para filtrar potenciais empresas com base em consumo mensal.</p>
+<p>Cate foi o projeto do 6º semestre tendo como foco a coleta, analíse, tratamento e exibição de dados.</p>
+<p>O parceiro deste projeto foi á empresa Dom Rock, que disponibiliza uma plataforma permite a captura de dados não estruturados e estruturados de forma automatizada e promove a visualização otimizada de análises, informações e dados que viabilizam ganhos recorrentes para diversas áreas de negócios das empresas.</p>
+<p>O desafio deste projeto foi realizar a tratativa de dados a fim de encontrar possiveis casos de divergências de informações, possibilitando a criação de relatórios que dinamizem a tomada de decisões do forma a diminuir ou extinguir essas anomalias.</p>
 
  #### TECNOLOGIAS UTILIZADAS
  
- Neste quinto projeto utilizamos as seguintes tecnologias:
- - VUE
- - SCSS
- - JAVA
- - JavaScript
- - HTML
- - TypeScript
- - SpringBoot
+ Neste sexto projeto utilizamos as seguintes tecnologias:
+ - Banco de Dados NoSql com MongoDb
+ - PowerBI
+ - Python
+ - Pandas
+ - DataWarehouse com Mysql
  - Visual Studio Code
- - MySQL
- - Banco de Dados AWS com MySQL
- - Firebase
- - Heroku
-  
+   
  #### CONTRIBUIÇÕES PESSOAIS
  
-<p>Neste projeto desempenhei a função de desenvolvedor backend, frontend e SCRUM Master.</p>
-<p>A carga deste projeto foi um pouco mais pesada que a dos outros, devido o defict de integrantes do grupo. Porém foi possível entregar um bom resultado.</p>
-<p>Este foi meu primeiro contato com o frontend utilizando a linguagem VUE que possibilitou um grande aprendizado pessoal.</p>
+<p>Neste projeto desempenhei a função de Product Owner, onde pude trabalhar a comunicação com o cliente e o entendimento do problema, de forma que fosse possivel repassar ao grupo a solução apropriada ao cliente.</p>
+<p>O grupo foi bem divido com suas funções, possibilitando uma distribuição melhor das funções e do cronograma.</p>
+<p>Neste ultimo semestre Exercendo a função de P.O. foi possivel observar pontos que puderam ajudar aos integrantes do grupo como</p>
 
 <p><b>Hard Skills:</b> Java, Springboot, VUE, JavaScript, Typescript, Metodologia SCRUM como Master.</p>
 <p><b>Soft Skills:</b> O foco neste projeto foi a analíse de dados, porém com o aprendizado de frontend foi possivel desenvolver gráficos que geraram um bom resultado visual. </p>
