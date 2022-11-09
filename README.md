@@ -196,15 +196,15 @@ ________________________________________________________________________________
  
 <p>Neste projeto desempenhei a função de Product Owner, onde pude trabalhar a comunicação com o cliente e o entendimento do problema, de forma que fosse possivel repassar ao grupo a solução apropriada ao cliente.</p>
 <p>O grupo foi bem divido com suas funções, possibilitando uma distribuição melhor das funções e do cronograma.</p>
-<p>Neste ultimo semestre Exercendo a função de P.O. foi possivel observar pontos que puderam ajudar aos integrantes do grupo como</p>
+<p>Exercendo a função de P.O. foi possivel ter novas perspectivas do projeto, observando pontos que puderam ajudar aos desenvolvedores do grupo, como por exemplo entender não só o lado do cliente mas como será desenvolvido a solução.</p>
 
-<p><b>Hard Skills:</b> Java, Springboot, VUE, JavaScript, Typescript, Metodologia SCRUM como Master.</p>
-<p><b>Soft Skills:</b> O foco neste projeto foi a analíse de dados, porém com o aprendizado de frontend foi possivel desenvolver gráficos que geraram um bom resultado visual. </p>
+<p><b>Hard Skills:</b> Pandas com Python, Power Bi, Analíse de Dados com Python, gerenciamento de projetos na função de P.O. .</p>
+<p><b>Soft Skills:</b> Através da coleta, analíse e tratamento dos dados foi possivel desenvolver relatórios utilizando a ferramenta de BI permitindo a tomada de decisão. </p>
 <br>
  
  #### IMAGENS
-![](https://raw.githubusercontent.com/MaXximiles/API5-SEM/main/Documenta%C3%A7%C3%A3o/src/3Sprint_dashboard_inteligencia.PNG) | ![](https://raw.githubusercontent.com/MaXximiles/API5-SEM/main/Documenta%C3%A7%C3%A3o/src/3Sprint_Modal_aceita_carteira.PNG)
+![](https://github.com/API-6-SEMESTRE/Documentacao/blob/main/demonstracao-aplicacao/grafico-2.png) | ![](https://github.com/API-6-SEMESTRE/Documentacao/blob/main/demonstracao-aplicacao/grafico-3.png)
 --------- | --------
 
-<p align="center"><a href="https://github.com/MaXximiles/API5-SEM"><img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
+<p align="center"><a href="https://github.com/API-6-SEMESTRE/Documentacao"><img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
 
