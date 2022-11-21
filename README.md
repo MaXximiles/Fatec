@@ -139,12 +139,11 @@ ________________________________________________________________________________
 
 <p align="center"><img src="https://user-images.githubusercontent.com/68132461/163346757-0757c301-4226-442f-aa6b-f75321aa10fe.png" width="220" height="150"></>
 <p>Find Data foi o projeto do 5º semestre tendo como foco a analíse de dados.</p>
-<p>O cliente deste projeto foi á SPC, empresa que possui um grande banco de dados com informações de seus clientes. A proposta para esse sistema foi de criar uma ferramenta que facilitasse a gerencia de potenciais clientes para os vendedores da SPC.</p>
-<p>Filtrando uma base de dados disponibilizada pela SPC a Find Data recolhe e processa esses dados para filtrar potenciais empresas com base em consumo mensal.</p>
+<p>Este projeto teve como parceria á SPC, empresa que possui um grande banco de dados com informações de seus clientes. A proposta para esse sistema consistiu na criação de uma ferramenta que facilitasse o gerenciamento de potenciais clientes para os vendedores da SPC. Filtrando uma base de dados disponibilizada pela SPC, a Find Data recolhe e processa esses dados para filtrar potenciais empresas com base em consumo mensal.</p>
 
  #### TECNOLOGIAS UTILIZADAS
  
- Neste quinto projeto utilizamos as seguintes tecnologias:
+ Neste projeto utilizaram as seguintes tecnologias:
  - VUE
  - SCSS
  - JAVA
@@ -161,7 +160,7 @@ ________________________________________________________________________________
  #### CONTRIBUIÇÕES PESSOAIS
  
 <p>Neste projeto desempenhei a função de desenvolvedor backend, frontend e SCRUM Master.</p>
-<p>A carga deste projeto foi um pouco mais pesada que a dos outros, devido o defict de integrantes do grupo. Porém foi possível entregar um bom resultado.</p>
+<p>A carga deste projeto foi um pouco mais pesada que a dos outros, devido o defict de integrantes do grupo. Porém, foi possível entregar um bom resultado.</p>
 <p>Este foi meu primeiro contato com o frontend utilizando a linguagem VUE que possibilitou um grande aprendizado pessoal.</p>
 
 <p><b>Hard Skills:</b> Java, Springboot, VUE, JavaScript, Typescript, Metodologia SCRUM como Master.</p>
