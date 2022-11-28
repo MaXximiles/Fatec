@@ -177,13 +177,13 @@ ________________________________________________________________________________
 ### FIND DATA - 6º SEMESTRE 2022-2
 
 <p align="center"><img src="https://github.com/API-6-SEMESTRE/Documentacao/raw/main/logo/logofinal_Branco.jpg" width="220" height="150"></>
-<p>Cate foi o projeto do 6º semestre tendo como foco a coleta, analíse, tratamento e exibição de dados.</p>
-<p>O parceiro deste projeto foi á empresa Dom Rock, que disponibiliza uma plataforma permite a captura de dados não estruturados e estruturados de forma automatizada e promove a visualização otimizada de análises, informações e dados que viabilizam ganhos recorrentes para diversas áreas de negócios das empresas.</p>
-<p>O desafio deste projeto foi realizar a tratativa de dados a fim de encontrar possiveis casos de divergências de informações, possibilitando a criação de relatórios que dinamizem a tomada de decisões do forma a diminuir ou extinguir essas anomalias.</p>
+<p>Cate foi o projeto desenvolvido no 6º semestre tendo como foco a coleta, análise, tratamento e exibição de dados.</p>
+<p>Este projeto teve como parceria a empresa Dom Rock, que disponibilizou uma plataforma para a captura de dados não estruturados e estruturados de forma automatizada e promove a visualização otimizada de análises, informações e dados que viabilizam ganhos recorrentes para diversas áreas de negócios das empresas.</p>
+<p>O desafio deste projeto foi realizar a tratativa de dados a fim de encontrar possíveis casos de divergências de informações, possibilitando a criação de relatórios que dinamizem a tomada de decisões, de forma a diminuir ou extinguir essas anomalias.</p>
 
  #### TECNOLOGIAS UTILIZADAS
  
- Neste sexto projeto utilizamos as seguintes tecnologias:
+ Neste desenvolvimento utilizaram as seguintes tecnologias:
  - Banco de Dados NoSql com MongoDb
  - PowerBI
  - Python
@@ -193,12 +193,12 @@ ________________________________________________________________________________
    
  #### CONTRIBUIÇÕES PESSOAIS
  
-<p>Neste projeto desempenhei a função de Product Owner, onde pude trabalhar a comunicação com o cliente e o entendimento do problema, de forma que fosse possivel repassar ao grupo a solução apropriada ao cliente.</p>
-<p>O grupo foi bem divido com suas funções, possibilitando uma distribuição melhor das funções e do cronograma.</p>
-<p>Exercendo a função de P.O. foi possivel ter novas perspectivas do projeto, observando pontos que puderam ajudar aos desenvolvedores do grupo, como por exemplo entender não só o lado do cliente mas como será desenvolvido a solução.</p>
+<p>Neste projeto desempenhei a função de Product Owner, onde pude trabalhar a comunicação com o cliente e o entendimento do problema, de forma que fosse possível repassar ao grupo a solução apropriada ao cliente.</p>
+<p>O grupo foi bem divido com base em suas funções, possibilitando uma distribuição melhor das funções e do cronograma.</p>
+<p>Com a função como P.O. foi possível ter novas perspectivas do projeto, observando pontos que puderam ajudar aos desenvolvedores do grupo, como por exemplo, entender não só o lado do cliente mas como será desenvolvido a solução.</p>
 
 <p><b>Hard Skills:</b> Pandas com Python, Power Bi, Analíse de Dados com Python, gerenciamento de projetos na função de P.O. .</p>
-<p><b>Soft Skills:</b> Através da coleta, analíse e tratamento dos dados foi possivel desenvolver relatórios utilizando a ferramenta de BI permitindo a tomada de decisão. </p>
+<p><b>Soft Skills:</b> Através da coleta, analíse e tratamento dos dados foi possível desenvolver relatórios utilizando a ferramenta de BI permitindo a tomada de decisão. </p>
 <br>
  
  #### IMAGENS
