@@ -1,7 +1,28 @@
-# MAXIMILES BARCELOS
-<a href="https://www.linkedin.com/in/maxx-barcelos-aaa106b2"> <img src= "https://img.shields.io/badge/Maximiles%20Barcelos%20--%20Scrum%20Master-Linkedin-blue"></a> <br>
+<img align="right" width="250px" style="margin-top:-20px" src="https://raw.githubusercontent.com/MaXximiles/Fatec/master/src/WhatsApp-Image-2022-11-16-at-14.31.png">
+
+<div dsplay="inline-block">
+ 
+ <h1 align="left">Maximiles Barcelos</h1>
+ <a href="https://www.linkedin.com/in/maxx-barcelos-aaa106b2/"><img align="left" width="80px" src="https://raw.githubusercontent.com/MaXximiles/Fatec/master/src/icons8-linkedin-100.png" alt="Linkedin" style="vertical-align:top;"></a> 
+  <a href="mailto:maxx.sbr@gmail.com"><img align="left" width="80px" src="https://raw.githubusercontent.com/MaXximiles/Fatec/master/src/icons8-gmail-100.png" alt="Gmail" style="vertical-align:top;"></a>
+  <a href="https://github.com/MaXximiles"><img width="80px" src="https://raw.githubusercontent.com/MaXximiles/Fatec/master/src/icons8-github-100.png" alt="Github" style="vertical-align:top;"></a>
+  
+  <br>
+  Formação Acadêmica <br>
+  - Técnico em Redes de Computadores <br>
+  - Técnologo em Banco de Dados <br>
+  <br>
+  Expêriencia Profissional <br>
+  - Estagio em desenvolvimento Web <br>
+  - Desenvolvedor Web <br>
+  - Administrador de Redes e Servidores <br>
+  - Militar há 8 Anos <br>
+    
+</div>
+
 <br>
-Olá, este é meu portfólio de projetos desenvolvidos durante o curso de graduação superior em Banco de Dados pela FATEC Jessen Vidal em São José dos Campos. 
+<br>
+ 
 
 ## Projetos FATEC 2020 - 2022
 
