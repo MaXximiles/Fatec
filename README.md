@@ -8,8 +8,8 @@ Olá, este é meu portfólio de projetos desenvolvidos durante o curso de gradua
 ### SARAH 1º SEMESTRE 2020-1
 
 <p>De acordo com o que nos foi proposto pelo time de docentes da FATEC, desenvolvemos uma assistente virtual interativa, onde o foco principal era a utilização de comandos por voz.</p>
-<p>Com essa idéia desenvolvemos uma assistente virtual de Recursos Humanos, onde era possivel a contratação, demissão com calculo recisório e todo o controle de funcionários de uma empresa.</p>
-<p>Sarah é uma assistente virtual voltada para funcionalidades de RH, o tema foi definido de acordo com as funções que acreditamos ser relevantes para o curso, como uma busca em um banco de dados ou simplesmente cálculos rescisórios dos quais utilizamos lógica de programação.</p>
+<p>Com essa ideia desenvolvemos uma assistente virtual de Recursos Humanos, onde era possível a contratação, demissão com calculo rescisório e todo o controle de funcionários de uma empresa.</p>
+<p>Sarah é uma assistente virtual voltada para funcionalidades de RH, o tema foi definido de acordo com as funções que acreditamos serem relevantes para o curso, como uma busca em um banco de dados ou simplesmente cálculos rescisórios dos quais utilizamos lógica de programação.</p>
 
 #### TECNOLOGIAS UTILIZADAS
 
@@ -23,7 +23,7 @@ Neste primeiro projeto utilizamos as seguintes tecnologias:
 <p>Neste primeiro projeto, tivemos a orientação e inserção na metodologia SCRUM, onde, um aluno do ultimo semestre do curso assumiu o papel de Master, nos auxiliando nas atividades.</p>
 <p>Através disso foram dividos diferentes tarefas entre os integrantes do grupo, sendo eu o responsável pela integração com o banco de dados e com a biblioteca Speech Recoginition.</p>
 <p><b>Hard Skills:</b> Python, GitHub, Postgresql, Metodologia SCRUM.</p>
-<p><b>Soft Skills:</b> Entendimento da metodologia SCRUM, iniciação em linguagem Python. </p>
+<p><b>Soft Skills:</b> Este foi o primeiro projeto onde pude conhecer a metodologia Scrum, então pude desenvolver a habilidade de <b>trabalho em equipe</b> e <b>proatividade</b> para aprender sobre a linguagem e ferramentas que foram utilizadas no projeto. </p>
 <br>
 
 #### IMAGENS
@@ -39,11 +39,11 @@ ________________________________________________________________________________
 
 <p align="center"><img src="https://raw.githubusercontent.com/labarro/projeto-integrador-2sem/master/LogoYCad.png" width="280" height="120"></>
  
-<p>Neste segundo projeto nosso cliente foi a empresa TecSUS, empresa que tem por missão o desenvolvimento técnológico para a sustentabilidade do planeta. A Tecsus é uma startup que desenvolve dispositivos, aplicativos e sistemas para a transmissão e recepção de dados, controle de equipamentos remotos e gestão de faturas. Aplicados nos setores de abastecimento de água, distribuição de eletricidade e gás natural.</p>
+<p>Neste segundo projeto nosso cliente foi a empresa TecSUS, empresa que tem por missão o desenvolvimento tecnológico para a sustentabilidade do planeta. A Tecsus é uma startup que desenvolve dispositivos, aplicativos e sistemas para a transmissão e recepção de dados, controle de equipamentos remotos e gestão de faturas. Aplicados nos setores de abastecimento de água, distribuição de eletricidade e gás natural.</p>
 
-<p>Através do funcionamento da empresa e da proposta do cliente descobrimos que a principal dificuldade da mesma está no cadastro manual de faturas, que por falta de padronização por parte das concessionarias responsaveis, acarretam em dados que não podem ser lidos automaticamente pelo sistema ja implementado na empresa.</p>
+<p>Através do funcionamento da empresa e da proposta do cliente descobrimos que a principal dificuldade da mesma está no cadastro manual de faturas, que por falta de padronização por parte das concessionarias responsáveis, acarretam em dados que não podem ser lidos automaticamente pelo sistema já implementado na empresa</p>
 <p>Tendo em vista esse obstáculo, meu grupo desenvolveu o projeto visando um sistema simples e intuitivo, que reduza a chance de erros na hora de inserção de dados por parte do operador, proporcionando redução no tempo de digitação, retrabalho e minimizando assim tempo de execução dessas operações.</p>
-<p>Utilizamos a ferramenta Jasper Reports para criação de relatórios do sistema, criando assim uma forma mais rapida e pratica do cliente controlar o uso do sistema.</p>
+<p>Utilizamos a ferramenta Jasper Reports para criação de relatórios do sistema, criando assim uma forma mais rápida e pratica do cliente controlar o uso do sistema.</p>
 
 #### TECNOLOGIAS UTILIZADAS
 
@@ -55,11 +55,11 @@ Neste segundo projeto utilizamos as seguintes tecnologias:
 
 #### CONTRIBUIÇÕES PESSOAIS
 
-<p>Neste projeto desmpenhei a função de Master do grupo, onde pude entender melhor a metodologia SCRUM e aplica-la, utilizando a ferramenta Trello, para controlar as atividades e seus prazos.</p>
-<p>Pude trabalhar na implementação do back-end e através da linguagem orientada a objetos foi possivel desenvolver o front-end tambem. </p>
+<p>Neste projeto desempenhei a função de Master do grupo, onde pude entender melhor a metodologia SCRUM e aplica-la, utilizando a ferramenta Trello, para controlar as atividades e seus prazos.</p>
+<p>Pude trabalhar na implementação do back-end e através da linguagem orientada a objetos foi possível desenvolver o front-end também. </p>
 
 <p><b>Hard Skills:</b> Java, JavaFX, GitHub, MySql, Metodologia SCRUM como Master.</p>
-<p><b>Soft Skills:</b> Desempenhando a função de Master pude designar funções e prazos, criando assim uma visão do projeto ao todo. A iniciação na linguagem Java permitiu conhecer orientação a objetos. </p>
+<p><b>Soft Skills:</b> Através da <b>Liderança</b> pude desempenhar a função de Master, com isso tambem precisei ter <b>Ordganização e Planejamento</b> na hora de distribuir funções e tarefas ao grupo. </p>
 <br>
 
  #### IMAGENS
@@ -75,7 +75,7 @@ ________________________________________________________________________________
 
 <p align="center"><img src="https://user-images.githubusercontent.com/18652465/111547833-88631a00-8758-11eb-863c-ccf1e6e93f39.png" width="220" height="150"></>
 
- <p> No terceiro projeto realizado no curso nosso cliente foi a empresa EMBRAER que trouxe um grande desafio tendo como objetivo o controle de manuais da empresa.</p>
+ <p> No terceiro projeto realizado no curso nosso cliente foi à empresa EMBRAER que trouxe um grande desafio tendo como objetivo o controle de manuais da empresa.</p>
  <p>De acordo a proposta da empresa vimos que a finalidade deste sistema era o controle de Manuais de equipamentos utilizados pelo cliente. Esses manuais possuem controles de versões, traços, tags, e são desmembrados por capítulos que podem pertencer a mais de um manual.</p>
 <p>Criamos o software Trace Finder, que consegue através do upload de fragmentos de arquivos pdf criar manuais completos, gerar indices e capas automaticamente.</p>
 <p>Com o Trace Finder, o usuário pode versionar manuais completos ou somente atualizações do mesmo, possibilitando ao cliente que o mesmo possa controlar o download e impressão destes manuais.</p>
@@ -91,11 +91,11 @@ Neste terceiro projeto utilizamos as seguintes tecnologias:
  
 #### CONTRIBUIÇÕES PESSOAIS
  
-<p>O desafio proposto permitiu o primeiro contato com o framework Springboot que permitiu conhecer essa ferramenta, onde, foi possivel realizar a integração com o banco de dados através do JPA que permite uma conexão mais facil, limpa e rapida.</p>
+<p>O desafio proposto permitiu o primeiro contato com o framework Springboot que permitiu conhecer essa ferramenta, onde, foi possível realizar a integração com o banco de dados através do JPA que permite uma conexão mais fácil, limpa e rápida</p>
 <p>Desempenhando a função de Master do grupo, pude aprender mais sobre a organização das tarefas e dos prazos de entrega, saber gerenciar melhor as pessoas que integraram meu grupo.</p>
 
 <p><b>Hard Skills:</b> Java, Springboot, iPDF, MySql, Heroku, Metodologia SCRUM como Master.</p>
-<p><b>Soft Skills:</b> Iniciação no framework Springboot, permitiu a integração com o banco de dados através do JPA e exercendo a função de Master que me ajudou a gerir melhor o grupo. </p>
+<p><b>Soft Skills:</b> <b>Liderança, Organização e Planejamento<b> aplicadas na função de Master do grupo, neste projeto a <b>Comunicação</b> também foi uma grande contribuição, visto alguns percalços que ocorreram durante o projeto.</p>
 <br>
  
 #### IMAGENS
@@ -109,7 +109,7 @@ ________________________________________________________________________________
 
 <p align="center"><img src="https://github.com/MaXximiles/API-4SEM/raw/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png" width="220" height="150"></>
 <p>Endurance foi o quarto sistema desenvolvido no curso e tem como objetivo principal o gerenciamento de eventos, possibilitando a criação e o controle aos colaboradores da empresa.</p>
-<p>Neste projeto envolveu a empresa ORACLE, que possui um espaço para eventos, com duas salas com capacidades fisícas diferentes. O foco do projeto consistiu no agendamento destas salas seguindo o numero de pessoas que podem assistir os eventos de acordo com as normas de espaçamento pessoal devido a pandemia.</p>
+<p>Neste projeto envolveu a empresa ORACLE, que possui um espaço para eventos, com duas salas com capacidades físicas diferentes. O foco do projeto consistiu no agendamento destas salas seguindo o numero de pessoas que podem assistir os eventos de acordo com as normas de espaçamento pessoal devido a pandemia.</p>
 <p>Com o agendamento das salas o público externo poderá ser cadastrado no sistema para participar dos eventos, seguindo a validação do comprovante de vacinação contra SARS-CoV-2, tanto para dose única quanto para demais doses. Os usuários cadastrados serão notificados sobre novos eventos e atualizações via e-mail.</p>
 
  #### TECNOLOGIAS UTILIZADAS
@@ -121,11 +121,11 @@ ________________________________________________________________________________
   
  #### CONTRIBUIÇÕES PESSOAIS
  
-<p>Neste projeto pude focar mais no gerenciamento do grupo, desempenhando a função de master obtendo melhor rendimento com a divisão de tarefas e comprimento dos prazos.</p>
+<p>Neste projeto pude focar mais no gerenciamento do grupo, desempenhando a função de Master obtendo melhor rendimento com a divisão de tarefas e comprimento dos prazos.</p>
 <p>O projeto teve grande foco no banco de dados Oracle Cloud, o que permitiu a criação de funções dentro do projeto para execução do sistema.</p>
 
 <p><b>Hard Skills:</b> Java, Springboot, Oracle Cloud, Heroku, Metodologia SCRUM como Master.</p>
-<p><b>Soft Skills:</b> Com o foco no Oracle Cloud, o projeto permitiu a integração e o contato com a ferramenta.  </p>
+<p><b>Soft Skills:</b> Neste projeto desempenhei novamente a função de Master por isso consegui mais uma vez aplicar <b>Liderança, Organização e Planejamento<b> e adicionar também a <b>Capacidade de resolver problemas</b> que ocorreram no decorrer do projeto. <b>Comunicação</b> também foi um grande recurso para este desenvolvimento. </p>
 <br>
  
  #### IMAGENS
@@ -138,7 +138,7 @@ ________________________________________________________________________________
 ### FIND DATA - 5º SEMESTRE 2022-1
 
 <p align="center"><img src="https://user-images.githubusercontent.com/68132461/163346757-0757c301-4226-442f-aa6b-f75321aa10fe.png" width="220" height="150"></>
-<p>Find Data foi o projeto do 5º semestre tendo como foco a analíse de dados.</p>
+<p>Find Data foi o projeto do 5º semestre tendo como foco a análise de dados.</p>
 <p>Este projeto teve como parceria á SPC, empresa que possui um grande banco de dados com informações de seus clientes. A proposta para esse sistema consistiu na criação de uma ferramenta que facilitasse o gerenciamento de potenciais clientes para os vendedores da SPC. Filtrando uma base de dados disponibilizada pela SPC, a Find Data recolhe e processa esses dados para filtrar potenciais empresas com base em consumo mensal.</p>
 
  #### TECNOLOGIAS UTILIZADAS
@@ -164,7 +164,7 @@ ________________________________________________________________________________
 <p>Este foi meu primeiro contato com o frontend utilizando a linguagem VUE que possibilitou um grande aprendizado pessoal.</p>
 
 <p><b>Hard Skills:</b> Java, Springboot, VUE, JavaScript, Typescript, Metodologia SCRUM como Master.</p>
-<p><b>Soft Skills:</b> O foco neste projeto foi a analíse de dados, porém com o aprendizado de frontend foi possivel desenvolver gráficos que geraram um bom resultado visual. </p>
+<p><b>Soft Skills:</b> A carga deste projeto como mencionado foi grande, com um numero de integrantes reduzido a <b>Flexibilidade e Adaptabilidade</b> para trabalhar em diferentes áreas foi muito importante, a <b>Comunicação</b>, aplicada na <b>Liderança, Organização e Planejamento</b> também foram de suma importância para que este projeto fosse concluído. </p>
 <br>
  
  #### IMAGENS
@@ -198,7 +198,7 @@ ________________________________________________________________________________
 <p>Com a função como P.O. foi possível ter novas perspectivas do projeto, observando pontos que puderam ajudar aos desenvolvedores do grupo, como por exemplo, entender não só o lado do cliente mas como será desenvolvido a solução.</p>
 
 <p><b>Hard Skills:</b> Pandas com Python, Power Bi, Analíse de Dados com Python, gerenciamento de projetos na função de P.O. .</p>
-<p><b>Soft Skills:</b> Através da coleta, analíse e tratamento dos dados foi possível desenvolver relatórios utilizando a ferramenta de BI permitindo a tomada de decisão. </p>
+<p><b>Soft Skills:</b> <b>Empatia e Comunicação</b> foram às habilidades mais desenvolvidas neste projeto onde pude desempenhar a função de Product Owner, o <b>Trabalho em equipe</b> e a <b>Criatividade</b> foram pontos chaves no desenvolvimento da solução.</p>
 <br>
  
  #### IMAGENS
