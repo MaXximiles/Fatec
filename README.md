@@ -10,9 +10,9 @@
   <br>
   Formação Acadêmica <br>
   - Técnico em Redes de Computadores <br>
-  - Técnologo em Banco de Dados <br>
+  - Tecnólogo em Banco de Dados <br>
   <br>
-  Expêriencia Profissional <br>
+  Experiência Profissional <br>
   - Estagio em desenvolvimento Web <br>
   - Desenvolvedor Web <br>
   - Administrador de Redes e Servidores <br>
