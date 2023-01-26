@@ -195,7 +195,7 @@ ________________________________________________________________________________
 <p align="center"><a href="https://github.com/MaXximiles/API5-SEM"><img src= "https://github.com/MaXximiles/Fatec/blob/master/src/acesseaquiendurance.fw.png" width="100" height="40"></a></p> <br>
 
 ________________________________________________________________________________________________________________________________________________________________________________
-### FIND DATA - 6º SEMESTRE 2022-2
+### CATE - 6º SEMESTRE 2022-2
 
 <p align="center"><img src="https://github.com/API-6-SEMESTRE/Documentacao/raw/main/logo/logofinal_Branco.jpg" width="220" height="150"></>
 <p>Cate foi o projeto desenvolvido no 6º semestre tendo como foco a coleta, análise, tratamento e exibição de dados.</p>
